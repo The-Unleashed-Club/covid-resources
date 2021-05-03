@@ -5,7 +5,7 @@ import React from 'react'
 const Header = () => {
     return (
         <div style={styles.box}>
-            <h1 style={styles.head}>Recovered India project</h1>,
+            <h1 style={styles.head}>Recover India project</h1>,
         </div>
     )
 };
