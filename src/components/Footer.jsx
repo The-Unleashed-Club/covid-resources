@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div style={styles.box}>
-            <h1 style={styles.head}>copyRight</h1>,
+            <h1 style={styles.head}>@copyRight</h1>,
         </div>
     )
 };
@@ -13,11 +13,12 @@ const Footer = () => {
 const styles ={
     box: {
        // padding: '80px 60px',
-        background: 'black',
-        position: 'absolute',
-        bottom: '0',
-        width: '100%',
-        textAlign: 'center',
+      // padding: '80px 60px',
+      display:'flex',
+      justifyContent:'center',
+       background: 'black',
+       bottom: '0',
+       width: '100%',
     },
     head:{
         color:'#808080'
