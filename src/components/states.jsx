@@ -1,54 +1,34 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import ImgMediaCard from './ImgMediaCard';
+import StateData from './StateData'
 
-// Component that will return an
-// unordered list
-function Navmenu(props) {
-	const list = props.menuitems;
-
-	const updatedList = list.map((listItems) => {
-		return (
-			<li style={styles.li} key={listItems.toString()}>
-				<Button size="large" style={styles.btn} onClick>{listItems}</Button>
-			</li>
-		);
-	});
-
-	return (
-		<ul style={styles.list}>{updatedList}</ul>
+function CardData(val) {
+	return(
+		<ImgMediaCard imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4LOOVTfMubEU94Z6VadJlMsQcqts0oqiw1A&usqp=CAU" 
+		title={val.stateName}
+	  />
 	);
-};
+}
 
-const styles = {
-	list: {
-		//scrollBehaviour: 'smooth'
-		//padding:'1%',
-		display: 'flex',
-		flexWrap: 'wrap',
-		paddingTop: '1.8%',
 
-		
-	},
-	li: {
-		//justifyContent: 'spaceAround',
-		scrollBehaviour: 'smooth',
-		listStyle: 'none',
-		display: 'flex',
-		flexDirection: 'row',
-		justifyContent: 'center',
-		alignItems: 'center',
-		//background:'red',
-		padding:'1%',
-		
-	},
-	btn: {
-		background: '#808080',
-		boxShadow: '2px 3px #d3d3d3',
-		
 
-	},
+const States = (props) => {
+	return (
+		<div style={styles.items}>
+		{StateData.map(CardData)} 
+		</div>
+	)
+}
+
+const styles ={
+  items:{
+	display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+	alignItems: 'center',
+    justifyContent: 'center',
+  }
 
 };
 
-
-export default Navmenu
+export default States
