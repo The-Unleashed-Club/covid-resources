@@ -25,7 +25,8 @@ const styles = {
 		//padding:'1%',
 		display: 'flex',
 		flexWrap: 'wrap',
-		
+		paddingTop: '1.8%',
+
 		
 	},
 	li: {
@@ -42,6 +43,7 @@ const styles = {
 	},
 	btn: {
 		background: '#808080',
+		boxShadow: '2px 3px #d3d3d3',
 		
 
 	},
