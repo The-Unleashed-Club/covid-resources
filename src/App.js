@@ -11,7 +11,7 @@ const App = () => {
       
       
 
-	<Navmenu menuitems = {states} />,
+	<Navmenu menuitems = {states} />
 	
  
 

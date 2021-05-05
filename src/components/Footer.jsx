@@ -19,6 +19,7 @@ const styles ={
        background: 'black',
        bottom: '0',
        width: '100%',
+       position: 'absolute',
     },
     head:{
         color:'#808080'
