@@ -1,34 +1,68 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Popper from '@material-ui/core/Popper';
+import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
+import Modal from '@material-ui/core/Modal';
 import Res from './Resources';
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    border: '1px solid',
-    padding: theme.spacing(1),
-    backgroundColor: theme.palette.background.paper,
-  },
-}));
+function rand() {
+  return Math.round(Math.random() * 20) - 10;
+}
 
-export default function SimplePopper() {
+function getModalStyle() {
+  const top = 50 + rand();
+  const left = 50 + rand();
+
+  return {
+    top: `${top}%`,
+    left: `${left}%`,
+    transform: `translate(-${top}%, -${left}%)`,
+  };
+}
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    paper: {
+      position: 'absolute',
+      width: 400,
+      backgroundColor: theme.palette.background.paper,
+      border: '2px solid #000',
+      boxShadow: theme.shadows[5],
+      padding: theme.spacing(2, 4, 3),
+    },
+  }),
+);
+
+export default function SimpleModal() {
   const classes = useStyles();
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  // getModalStyle is not a pure function, we roll the style only on the first render
+  const [modalStyle] = React.useState(getModalStyle);
+  const [open, setOpen] = React.useState(false);
 
-  const handleClick = (event) => {
-    setAnchorEl(anchorEl ? null : event.currentTarget);
+  const handleOpen = () => {
+    setOpen(true);
   };
 
-  const open = Boolean(anchorEl);
-  const id = open ? 'simple-popper' : undefined;
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const body = (
+    <div style={modalStyle} className={classes.paper}>
+      <Res />
+    </div>
+  );
 
   return (
     <div>
-      <button aria-describedby={id} type="button" onClick={handleClick}>
-        Resources
+      <button type="button" onClick={handleOpen}>
+Touch for Resources
       </button>
-      <Popper id={id} open={open} anchorEl={anchorEl}>
-       <div><Res /> </div>
-      </Popper>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description"
+      >
+        {body}
+      </Modal>
     </div>
   );
 }
