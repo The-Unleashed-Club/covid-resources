@@ -19,10 +19,11 @@ const styles ={
        background: 'black',
        bottom: '0',
        width: '100%',
-       position: 'absolute',
+       position: 'relative',
+    
     },
     head:{
-        color:'#808080'
+        color:'#808080',   
     }
 
 };
