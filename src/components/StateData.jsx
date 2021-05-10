@@ -1,6 +1,7 @@
 const StateData = [
     {
         img: '',
+        id:'Andhra Pradesh',
         stateName: 'Andhra Pradesh'
     },
     {

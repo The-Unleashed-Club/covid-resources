@@ -6,13 +6,14 @@ import {
   Menu,
   MenuItem,
   SidebarHeader,
-  SidebarFooter,
+  //SidebarFooter,
   SidebarContent,
 } from "react-pro-sidebar";
 
+// FiLogOut remove --k
 //import icons from react icons
 import { FaList, FaRegHeart } from "react-icons/fa";
-import { FiHome, FiLogOut, FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
+import { FiHome, FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
 import { RiPencilLine } from "react-icons/ri";
 import { BiCog } from "react-icons/bi";
 

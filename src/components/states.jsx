@@ -1,6 +1,7 @@
 import React from 'react';
 import ImgMediaCard from './ImgMediaCard';
-import StateData from './StateData'
+import StateData from './StateData';
+import AndraPradeshData from '../StatesLeads/AndraPradesh'
 
 function CardData(val) {
 	return(
@@ -9,7 +10,7 @@ function CardData(val) {
 	  />
 	);
 }
-
+console.log(AndraPradeshData[1]);
 
 
 const States = (props) => {
