@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
+import { makeStyles,  createStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Res from './Resources';
 function rand() {
@@ -17,15 +17,16 @@ function getModalStyle() {
   };
 }
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles(
   createStyles({
     paper: {
       position: 'absolute',
-      width: 400,
-      backgroundColor: theme.palette.background.paper,
+      width: '50%',
+      height: '50%',
+      backgroundColor: "white",
       border: '2px solid #000',
-      boxShadow: theme.shadows[5],
-      padding: theme.spacing(2, 4, 3),
+     boxShadow: "grey",
+      padding: '10px',
     },
   }),
 );
