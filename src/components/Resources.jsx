@@ -1,21 +1,30 @@
 import React from 'react';
 
+import { Route, BrowserRouter, Switch } from 'react-router-dom'
+
+import Oxy from './Oxy';
+import Ngo from './Ngo';
+import Ambulance from './Ambulance';
+import rscrc from './Rscrc';
+
 
 
 const Res = () => {
   return (
-    <div >
-      <h1>List Of Covid Resources</h1>
-   <button>Oxygen Cylinders</button>
-   <button>Oxygen Refilling</button>
-   <button>Beds With Oxygen</button>
-   <button>Medicines</button>
-   <button>Ambulance</button>
-   <button>NGO</button>
-   
+   < BrowserRouter >
+      <div>
+        
+         <Switch>
+            <Route exact path="/" component={rscrc} />
+            <Route exact path="/Oxy" component={Oxy} />
+            <Route exact path="/Ambulance" component={Ambulance} />
+            <Route exact path="/Ngo" component={Ngo} />
+            
+         </Switch>
+      </div>
+   </ BrowserRouter >
 
-</div>
-    
+       
   )
 };
 
