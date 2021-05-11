@@ -1,6 +1,6 @@
-const AndraPradeshData =[
+const BiharData =[
     {
-        city:"Visakhapatnam",
+        city:"Patna",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -10,7 +10,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Vijayawada",
+        city:"Gaya",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -20,7 +20,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Guntur",
+        city:"Bhagalpur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -30,7 +30,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Nellore",
+        city:"Muzaffarpur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -40,7 +40,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Kurnoo",
+        city:"Siwan",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -53,4 +53,4 @@ const AndraPradeshData =[
 ];
 
 
-export default AndraPradeshData
+export default BiharData

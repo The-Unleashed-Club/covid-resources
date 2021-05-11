@@ -1,6 +1,6 @@
-const AndraPradeshData =[
+const ChhattisgarhData =[
     {
-        city:"Visakhapatnam",
+        city:"Raipur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -10,7 +10,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Vijayawada",
+        city:"Bhilai",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -20,7 +20,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Guntur",
+        city:"Korba",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -30,7 +30,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Nellore",
+        city:"Bilaspur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -40,7 +40,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Kurnoo",
+        city:"Bemetara",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -53,4 +53,4 @@ const AndraPradeshData =[
 ];
 
 
-export default AndraPradeshData
+export default ChhattisgarhData

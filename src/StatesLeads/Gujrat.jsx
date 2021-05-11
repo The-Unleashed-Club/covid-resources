@@ -1,6 +1,6 @@
-const AndraPradeshData =[
+const GujratData =[
     {
-        city:"Visakhapatnam",
+        city:"Ahmedabad.",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -10,7 +10,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Vijayawada",
+        city:"Jamnagar",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -20,7 +20,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Guntur",
+        city:"Surat",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -30,7 +30,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Nellore",
+        city:"Vadodara",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -40,7 +40,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
-        city:"Kurnoo",
+        city:"Rajkot",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -53,4 +53,4 @@ const AndraPradeshData =[
 ];
 
 
-export default AndraPradeshData
+export default GujratData
