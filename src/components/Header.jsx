@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div style={styles.box}>
         <LocalHospitalIcon fontSize="large" style={{ color: '#808080' }}/>
-            <h1 style={styles.head}>Recover India project</h1>
+            <h1 style={styles.head}>Recover India Project</h1>
 
         </div>
     )

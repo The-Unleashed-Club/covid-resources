@@ -11,7 +11,8 @@ const useStyles = makeStyles({
     minWidth: 275,
     width: 'max-content',
     margin: '2%',
-    
+    boxShadow: '3px 3px 5px 6px #ccc',
+
   },
   bullet: {
     display: 'inline-block',
@@ -33,26 +34,26 @@ export default function OutlinedCard(props) {
   return (
     <Card className={classes.root} variant="outlined">
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
+        <Typography variant="h5" component="h2">
           city : {props.city}
         </Typography>
-        <Typography variant="h5" component="h2">
-        Name Of Facility :{props.nameOfFacility}
+        <Typography className={classes.title} color="textSecondary" gutterBottom>
+          Name Of Facility :{props.nameOfFacility}
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-        address :{props.address}
+          address :{props.address}
         </Typography>
         <Typography variant="body2" component="p">
-        contact : {props.contact}
+          contact : {props.contact}
         </Typography>
         <Typography variant="body2" component="p">
-        price :{props.price}
+          price :{props.price}
         </Typography>
         <Typography variant="body2" component="p">
-        comments :{props.comments}
+          comments :{props.comments}
         </Typography>
         <Typography variant="body2" component="p">
-        Verfication Data Time :{props.VerficationDataTime}
+          Verfication Data Time :{props.VerficationDataTime}
         </Typography>
       </CardContent>
       <CardActions>
