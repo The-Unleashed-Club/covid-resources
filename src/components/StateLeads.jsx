@@ -1,7 +1,10 @@
 import React from 'react';
 //import ImgMediaCard from './ImgMediaCard';
 //import StateData from './StateData';
-import AndraPradeshData from '../StatesLeads/AndraPradesh';
+//import AndraPradeshData from '../StatesLeads/AndraPradesh';
+//import ArunachalPradeshData from '../StatesLeads/ArunachalPradesh';
+import HaryanaData from '../StatesLeads/Haryana';
+
 import OutlinedCard from './OutlinedCard'
 
 function CardData(val) {
@@ -23,7 +26,7 @@ console.log();
 const States = (props) => {
     return (
         <div style={styles.items}>
-            {AndraPradeshData.map(CardData)}
+            {HaryanaData.map(CardData)}
         </div>
     )
 }

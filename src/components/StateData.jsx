@@ -36,11 +36,6 @@ const StateData = [
         img: '',
         stateName: 'Himachal Pradesh'
     },
-
-    {
-        img: '',
-        stateName: 'Himachal Pradesh'
-    },
     {
         img: '',
         stateName: 'Jammu and Kashmir'
