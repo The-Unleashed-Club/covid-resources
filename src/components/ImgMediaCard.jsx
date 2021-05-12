@@ -9,13 +9,13 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 //import SimpleModal from './PopUp';
 import Main from '../Pages/MainPage';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 //import StateData from './StateData'
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
-    
+
 
     margin: '2%',
   },
@@ -41,8 +41,26 @@ export default function ImgMediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-<Link to="/Main">Resources</Link>
+        <Link style={styles.btn} to="/Main">Resources</Link>
       </CardActions>
     </Card>
   );
-}
+};
+const styles = {
+  btn: {
+    backgroundColor: '#FFE4E1',
+    paddingLeft: '0.5%',
+    paddingRight: '0.5%',
+    paddingTop: '0.2%',
+    paddingBottom: '0.2%',
+    margin: '1%',
+    color: '#000000',
+    fontSize: '20px',
+    borderStyle: 'solid',
+    borderWidth: '1px',
+    borderRadius: '5px',
+    textDecoration: 'none',
+
+
+  },
+};
