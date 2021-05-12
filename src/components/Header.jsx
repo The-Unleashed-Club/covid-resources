@@ -16,7 +16,7 @@ const Header = () => {
 
 const styles ={
     box: {
-        boxSizing: 'border-box',
+        position:'sticky',
         width: '100%',
         display: 'flex',
         justifyContent: 'center',
