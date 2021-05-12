@@ -19,7 +19,7 @@ const styles ={
        background: 'black',
        bottom: '0',
        width: '100%',
-       position: 'relative',
+       position: 'fixed',
     
     },
     head:{
