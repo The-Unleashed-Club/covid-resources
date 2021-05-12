@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-//import MenuPopupState from './MenuPopupState'
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 
 
@@ -17,15 +16,14 @@ const Header = () => {
 const styles ={
     box: {
         position:'sticky',
-        width: '100%',
-        display: 'flex',
+         display: 'flex',
         justifyContent: 'center',
-        background: '#FFFF00',
-        padding: '2%',
-        marginBottom:'1%',
+        background: '#FFE4E1',
+        padding: '1%',
+       
     },
     head:{
-        color:'#808080'
+        color:'#00000',
     }
 
 };
