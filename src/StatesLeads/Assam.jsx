@@ -1,6 +1,5 @@
 const AssamData =[
     {
-        id:"1",
         city:"Guwahati",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -11,7 +10,6 @@ const AssamData =[
         VerficationDataTime :"",
     },
     {
-        id:"2",
         city:"Silchar",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -22,7 +20,6 @@ const AssamData =[
         VerficationDataTime :"",
     },
     {
-        id:"3",
         city:"Dibrugarh",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -33,7 +30,6 @@ const AssamData =[
         VerficationDataTime :"",
     },
     {
-        id:"4",
         city:"Jorhat",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -44,7 +40,6 @@ const AssamData =[
         VerficationDataTime :"",
     },
     {
-        id:"5",
         city:"Tezpur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",

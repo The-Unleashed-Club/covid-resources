@@ -1,6 +1,15 @@
 const GujratData =[
     {
-        id:"1",
+        city:"Ahmedabad.",
+        nameOfFacility:"",
+        address: "near Subhash Nagar mall",
+        contact: "8766357982",
+        avalability: "Oxygen cylinders Pre-booking and payment must be done today itself",
+        price:"50k Advance payment Pick up yourself.",
+        comments:"May reach teh place directly for refilling, charges are rs 200 for 10 kg",
+        VerficationDataTime :"",
+    },
+    {
         city:"Jamnagar",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -11,7 +20,6 @@ const GujratData =[
         VerficationDataTime :"",
     },
     {
-        id:"2",
         city:"Surat",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -22,7 +30,6 @@ const GujratData =[
         VerficationDataTime :"",
     },
     {
-        id:"3",
         city:"Vadodara",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -33,7 +40,6 @@ const GujratData =[
         VerficationDataTime :"",
     },
     {
-        id:"4",
         city:"Rajkot",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -43,17 +49,7 @@ const GujratData =[
         comments:"May reach teh place directly for refilling, charges are rs 200 for 10 kg",
         VerficationDataTime :"",
     },
-    {
-        id:"5",
-        city:"Ahmedabad.",
-        nameOfFacility:"",
-        address: "near Subhash Nagar mall",
-        contact: "8766357982",
-        avalability: "Oxygen cylinders Pre-booking and payment must be done today itself",
-        price:"50k Advance payment Pick up yourself.",
-        comments:"May reach teh place directly for refilling, charges are rs 200 for 10 kg",
-        VerficationDataTime :"",
-    },
+
 ];
 
 

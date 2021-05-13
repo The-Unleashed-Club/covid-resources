@@ -105,7 +105,6 @@ const StateData = [
         img: Jharkhand,
         stateName: 'Jharkhand'
     },
-
     {
         id:"15",
         img: Karnataka,
@@ -199,9 +198,6 @@ const StateData = [
     {
         id:"33",
         img: WestBengal,
-        stateName: 'West Bengal'
-    },
-
 
 ];
 

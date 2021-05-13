@@ -1,6 +1,5 @@
 const ChhattisgarhData =[
     {
-        id:"1",
         city:"Raipur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -11,7 +10,6 @@ const ChhattisgarhData =[
         VerficationDataTime :"",
     },
     {
-        id:"2",
         city:"Bhilai",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -22,7 +20,6 @@ const ChhattisgarhData =[
         VerficationDataTime :"",
     },
     {
-        id:"3",
         city:"Korba",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -33,7 +30,6 @@ const ChhattisgarhData =[
         VerficationDataTime :"",
     },
     {
-        id:"4",
         city:"Bilaspur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -44,7 +40,6 @@ const ChhattisgarhData =[
         VerficationDataTime :"",
     },
     {
-        id:"5",
         city:"Bemetara",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",

@@ -9,9 +9,7 @@ import OutlinedCard from './OutlinedCard'
 
 function CardData(val) {
     return (
-        <OutlinedCard 
-        key={val.id}
-        city={val.city}
+        <OutlinedCard city={val.city}
             nameOfFacility={val.nameOfFacility}
             address={val.address}
             contact={val.contact}
