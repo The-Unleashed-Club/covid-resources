@@ -1,6 +1,5 @@
 const HaryanaData =[
     {
-        id:"1",
         city:"Faridabad",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -11,7 +10,6 @@ const HaryanaData =[
         VerficationDataTime :"",
     },
     {
-        id:"2",
         city:"Gurugram",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -22,7 +20,6 @@ const HaryanaData =[
         VerficationDataTime :"",
     },
     {
-        id:"3",
         city:"Panipat",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -33,7 +30,6 @@ const HaryanaData =[
         VerficationDataTime :"",
     },
     {
-        id:"4",
         city:"Ambala",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -44,7 +40,6 @@ const HaryanaData =[
         VerficationDataTime :"",
     },
     {
-        id:"5",
         city:"Adampur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",

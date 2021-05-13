@@ -1,6 +1,5 @@
 const ArunachalPradeshData =[
     {
-        id:"1",
         city:"Itanagar",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -11,7 +10,6 @@ const ArunachalPradeshData =[
         VerficationDataTime :"",
     },
     {
-        id:"2",
         city:"Balijan",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -22,7 +20,6 @@ const ArunachalPradeshData =[
         VerficationDataTime :"",
     },
     {
-        id:"3",
         city:"Donyi-Polo",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -33,7 +30,6 @@ const ArunachalPradeshData =[
         VerficationDataTime :"",
     },
     {
-        id:"4",
         city:"Banderdewa",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -44,7 +40,6 @@ const ArunachalPradeshData =[
         VerficationDataTime :"",
     },
     {
-        id:"5",
         city:"Doimukh",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
