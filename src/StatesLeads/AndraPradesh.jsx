@@ -1,5 +1,6 @@
 const AndraPradeshData =[
     {
+        id:"1",
         city:"Visakhapatnam",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -10,6 +11,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
+        id:"2",
         city:"Vijayawada",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -20,6 +22,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
+        id:"3",
         city:"Guntur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -30,6 +33,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
+        id:"4",
         city:"Nellore",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -40,6 +44,7 @@ const AndraPradeshData =[
         VerficationDataTime :"",
     },
     {
+        id:"5",
         city:"Kurnoo",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",

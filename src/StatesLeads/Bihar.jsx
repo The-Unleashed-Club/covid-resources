@@ -1,5 +1,6 @@
 const BiharData =[
     {
+        id:"1",
         city:"Patna",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -10,6 +11,7 @@ const BiharData =[
         VerficationDataTime :"",
     },
     {
+        id:"2",
         city:"Gaya",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -20,6 +22,7 @@ const BiharData =[
         VerficationDataTime :"",
     },
     {
+        id:"3",
         city:"Bhagalpur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -30,6 +33,7 @@ const BiharData =[
         VerficationDataTime :"",
     },
     {
+        id:"4",
         city:"Muzaffarpur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -40,6 +44,7 @@ const BiharData =[
         VerficationDataTime :"",
     },
     {
+        id:"5",
         city:"Siwan",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
