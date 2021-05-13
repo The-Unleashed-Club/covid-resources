@@ -22,6 +22,18 @@ const StateData = [
     },
     {
         img: '',
+        stateName: 'Chandigarh'
+    },
+    {
+        img: '',
+        stateName: 'Daman and Diu'
+    },
+    {
+        img: '',
+        stateName: 'Delhi'
+    },
+    {
+        img: '',
         stateName: 'Goa'
     },
     {
@@ -55,6 +67,14 @@ const StateData = [
     },
     {
         img: '',
+        stateName: 'Ladakh'
+    },
+    {
+        img: '',
+        stateName: 'Lakshadweep'
+    },
+    {
+        img: '',
         stateName: 'Madhya Pradesh'
     },
     {
@@ -79,7 +99,11 @@ const StateData = [
     },
     {
         img: '',
-        stateName: 'Punjab'
+        stateName: 'Puducherry.'
+    },
+    {
+        img: '',
+        stateName: 'PunjabPuducherry.'
     },
     {
         img: '',
