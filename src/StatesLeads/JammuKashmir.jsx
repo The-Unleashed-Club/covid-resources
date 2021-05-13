@@ -1,5 +1,6 @@
 const JammukashmirData =[
     {
+        id:"1",
         city:"Srinagar ",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -10,6 +11,7 @@ const JammukashmirData =[
         VerficationDataTime :"",
     },
     {
+        id:"2",
         city:"Jammu",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -20,6 +22,7 @@ const JammukashmirData =[
         VerficationDataTime :"",
     },
     {
+        id:"3",
         city:"Anantnag",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -30,6 +33,7 @@ const JammukashmirData =[
         VerficationDataTime :"",
     },
     {
+        id:"4",
         city:"Udhampur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -40,6 +44,7 @@ const JammukashmirData =[
         VerficationDataTime :"",
     },
     {
+        id:"5",
         city:"Rajouri",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",

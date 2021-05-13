@@ -1,5 +1,6 @@
 const GoaData =[
     {
+        id:"1",
         city:"Panaji",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -10,6 +11,7 @@ const GoaData =[
         VerficationDataTime :"",
     },
     {
+        id:"2",
         city:"Margao",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -20,6 +22,7 @@ const GoaData =[
         VerficationDataTime :"",
     },
     {
+        id:"3",
         city:"Vasco",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -30,6 +33,7 @@ const GoaData =[
         VerficationDataTime :"",
     },
     {
+        id:"4",
         city:"Mapusa",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -40,6 +44,7 @@ const GoaData =[
         VerficationDataTime :"",
     },
     {
+        id:"5",
         city:"Ponda",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",

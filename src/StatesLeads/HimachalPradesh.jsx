@@ -1,5 +1,6 @@
 const HimachalPradeshData =[
     {
+        id:"1",
         city:"Shimla",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -10,6 +11,7 @@ const HimachalPradeshData =[
         VerficationDataTime :"",
     },
     {
+        id:"2",
         city:"Dharamsala",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -20,6 +22,7 @@ const HimachalPradeshData =[
         VerficationDataTime :"",
     },
     {
+        id:"3",
         city:"Solan",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -30,6 +33,7 @@ const HimachalPradeshData =[
         VerficationDataTime :"",
     },
     {
+        id:"4",
         city:"Mandi",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
@@ -40,6 +44,7 @@ const HimachalPradeshData =[
         VerficationDataTime :"",
     },
     {
+        id:"5",
         city:"Kullu",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",

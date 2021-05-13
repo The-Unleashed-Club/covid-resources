@@ -5,9 +5,11 @@ import AndraPradeshData from '../StatesLeads/AndraPradesh'
 
 function CardData(val) {
 	return(
-		<ImgMediaCard imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4LOOVTfMubEU94Z6VadJlMsQcqts0oqiw1A&usqp=CAU" 
+		<>
+		<ImgMediaCard Key={val.id} imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4LOOVTfMubEU94Z6VadJlMsQcqts0oqiw1A&usqp=CAU" 
 		title={val.stateName}
 	  />
+	  </>
 	);
 }
 console.log(AndraPradeshData[1]);
