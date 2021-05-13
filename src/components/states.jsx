@@ -2,10 +2,13 @@ import React from 'react';
 import ImgMediaCard from './ImgMediaCard';
 import StateData from './StateData';
 import AndraPradeshData from '../StatesLeads/AndraPradesh'
+//import AndhraPradesh from '../images/AndraPradesh.jpg'
 
 function CardData(val) {
 	return(
-		<ImgMediaCard imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4LOOVTfMubEU94Z6VadJlMsQcqts0oqiw1A&usqp=CAU" 
+		<>
+		<ImgMediaCard Key={val.id} 
+		imgSrc={val.img} 
 		title={val.stateName}
 	  />
 	);

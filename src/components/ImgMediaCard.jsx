@@ -15,8 +15,6 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
-
-
     margin: '2%',
   },
 });
@@ -48,13 +46,13 @@ export default function ImgMediaCard(props) {
 };
 const styles = {
   btn: {
-    backgroundColor: '#FFE4E1',
+    backgroundColor: '#808080',
     paddingLeft: '0.5%',
     paddingRight: '0.5%',
     paddingTop: '0.2%',
     paddingBottom: '0.2%',
     margin: '1%',
-    color: '#000000',
+    color: '#FFFF00',
     fontSize: '20px',
     borderStyle: 'solid',
     borderWidth: '1px',

@@ -18,7 +18,7 @@ const styles ={
         position:'sticky',
          display: 'flex',
         justifyContent: 'center',
-        background: '#FFE4E1',
+        background: '#FFFF00',
         padding: '1%',
        
     },

@@ -23,8 +23,8 @@ const styles = {
 
   },
   btn: {
-    backgroundColor: '#FFE4E1',
-    color: '#000000',
+    backgroundColor: '#FFFF00',
+    color: '#808080',
     paddingLeft: '0.5%',
     paddingRight: '0.5%',
     paddingTop: '0.2%',

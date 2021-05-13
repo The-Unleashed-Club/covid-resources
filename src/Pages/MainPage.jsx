@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {Link} from "react-router-dom";
 import { Route, BrowserRouter, Switch } from 'react-router-dom'
 const Main = () => {
@@ -32,6 +31,5 @@ const styles ={
       marginTop:'1%',
       marginBottom:'1%',
   },
-
 };
 export default Main
