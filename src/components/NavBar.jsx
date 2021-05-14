@@ -1,27 +1,5 @@
-import React, { useState } from "react";
-
-//import react pro sidebar components
-import {
-  ProSidebar,
-  Menu,
-  MenuItem,
-  SidebarHeader,
-  //SidebarFooter,
-  SidebarContent,
-} from "react-pro-sidebar";
-
-// FiLogOut remove --k
-//import icons from react icons
-import { FaList, FaRegHeart } from "react-icons/fa";
-import { FiHome, FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
-import { RiPencilLine } from "react-icons/ri";
-import { BiCog } from "react-icons/bi";
-
-
-//import sidebar css from react-pro-sidebar module and our custom css 
-import "react-pro-sidebar/dist/css/styles.css";
-import "./Nav.css";
-
+//import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   
@@ -71,4 +49,28 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+const styles = {
+  Nav: {
+    position: 'sticky',
+    display: 'flex',
+    justifyContent: 'center',
+    backgroundColor: '#808080',
+
+  },
+  btn: {
+    backgroundColor: '#FFFF00',
+    color: '#808080',
+    paddingLeft: '0.5%',
+    paddingRight: '0.5%',
+    paddingTop: '0.2%',
+    paddingBottom: '0.2%',
+    margin: '1%',
+    fontSize: '20px',
+    borderStyle: 'solid',
+    borderWidth: '1px',
+    borderRadius: '5px',
+    textDecoration: 'none',
+
+  },
+};
+export default Nav

@@ -21,11 +21,11 @@ const styles ={
         display: 'flex',
         justifyContent: 'center',
         background: '#FFFF00',
-        padding: '2%',
-        marginBottom:'1%',
+        padding: '1%',
+       
     },
     head:{
-        color:'#808080'
+        color:'#808080',
     }
 
 };
