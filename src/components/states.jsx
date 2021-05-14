@@ -11,6 +11,7 @@ function CardData(val) {
 		imgSrc={val.img} 
 		title={val.stateName}
 	  />
+	  </>
 	);
 }
 console.log(AndraPradeshData[1]);
