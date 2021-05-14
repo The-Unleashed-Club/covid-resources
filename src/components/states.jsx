@@ -6,7 +6,7 @@ import AndraPradeshData from '../StatesLeads/AndraPradesh'
 
 function CardData(val) {
 	return(
-		<>
+		
 		<ImgMediaCard Key={val.id} 
 		imgSrc={val.img} 
 		title={val.stateName}
