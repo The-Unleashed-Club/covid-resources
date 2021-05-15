@@ -198,6 +198,8 @@ const StateData = [
     {
         id:"33",
         img: WestBengal,
+        stateName: 'Uttar Pradesh',
+    },
 
 ];
 
