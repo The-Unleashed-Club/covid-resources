@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div style={styles.box}>
         <LocalHospitalIcon fontSize="large" style={{ color: '#808080' }}/>
-            <h1 style={styles.head}>Recover India Project</h1>
+            <h1 style={styles.head}>Recover India </h1>
 
         </div>
     )
@@ -16,14 +16,15 @@ const Header = () => {
 const styles ={
     box: {
         position:'sticky',
-         display: 'flex',
+        display: 'flex',
         justifyContent: 'center',
-        background: '#FFFF00',
+        background: '#34c759',
         padding: '1%',
        
     },
     head:{
-        color:'#00000',
+        color:'#f0ffff',
+        fontFamily: 'Poppins'
     }
 
 };

@@ -31,163 +31,163 @@ import Sikkim from '../images/Sikkim.jpg';
 import TamilNadu from '../images/TamilNadu.jpg';
 import Tripura from '../images/Tripura.jpg';
 import Uttaranchal from '../images/Uttaranchal.jpg';
-import UttarPradesh from '../images/UttarPradesh.jpg';
+import UttarPradesh from '../images/UttarPradesh.png';
 import WestBengal from '../images/WestBengal.jpg';
 
 const StateData = [
     {
         id:"1",
-        img: AndhraPradesh,
+        img: UttarPradesh,
         stateName: 'Andhra Pradesh'
     },
     {
         id:"2",
-        img: Assam,
+        img: UttarPradesh,
         stateName: 'Assam'
     },
     {
         id:"3",
-        img: ArunachalPradesh,
+        img: UttarPradesh,
         stateName: 'Arunachal Pradesh'
     },
     {
         id:"4",
-        img: Bihar,
+        img: UttarPradesh,
         stateName: 'Bihar'
     },
     {
         id:"5",
-        img: Chhattisgarh,
+        img: UttarPradesh,
         stateName: 'Chhattisgarh'
     },
     {
         id:"6",
-        img: Chandigarh,
+        img: UttarPradesh,
         stateName: 'Chandigarh'
     },
     {
         id:"7",
-        img: DamanAndDiu,
+        img: UttarPradesh,
         stateName: 'Daman and Diu'
     },
     {
         id:"8",
-        img: Delhi,
+        img: UttarPradesh,
         stateName: 'Delhi'
     },
     {
         id:"9",
-        img: Goa,
+        img: UttarPradesh,
         stateName: 'Goa'
     },
     {
         id:"10",
-        img: Gujrat,
+        img: UttarPradesh,
         stateName: 'Gujrat'
     },
     {
         id:"11",
-        img: Haryana,
+        img: UttarPradesh,
         stateName: 'Haryana'
     },
     {
         id:"12",
-        img: HimachalPradesh,
+        img: UttarPradesh,
         stateName: 'Himachal Pradesh'
     },
     {
         id:"13",
-        img: JammuAndKashmir,
+        img: UttarPradesh,
         stateName: 'Jammu and Kashmir'
     },
     {
         id:"14",
-        img: Jharkhand,
+        img: UttarPradesh,
         stateName: 'Jharkhand'
     },
     {
         id:"15",
-        img: Karnataka,
+        img: UttarPradesh,
         stateName: 'Karnataka'
     },
     {
         id:"16",
-        img: Kerala,
+        img: UttarPradesh,
         stateName: 'Kerala'
     },
     {
         id:"17",
-        img: Ladakh,
+        img: UttarPradesh,
         stateName: 'Ladakh'
     },
     {
         id:"18",
-        img: Lakshadweep,
+        img: UttarPradesh,
         stateName: 'Lakshadweep'
     },
     {
         id:"19",
-        img: MadhyaPradesh,
+        img: UttarPradesh,
         stateName: 'Madhya Pradesh'
     },
     {
         id:"20",
-        img: Maharashtra,
+        img: UttarPradesh,
         stateName: 'Maharashtra'
     },
     {
         id:"21",
-        img: Manipur,
+        img: UttarPradesh,
         stateName: 'Manipur'
     },
     {
         id:"22",
-        img: Mizoram,
+        img: UttarPradesh,
         stateName: 'Mizoram'
     },
     {
         id:"23",
-        img: Nagaland,
+        img: UttarPradesh,
         stateName: 'Nagaland'
     },
     {
         id:"24",
-        img: Orissa,
+        img: UttarPradesh,
         stateName: 'Orissa'
     },
     {
         id:"25",
-        img: Puducherry,
+        img: UttarPradesh,
         stateName: 'Puducherry'
     },
     {
         id:"26",
-        img: Punjab,
+        img: UttarPradesh,
         stateName: 'Punjab'
     },
     {
         id:"27",
-        img: Rajasthan,
+        img: UttarPradesh,
         stateName: 'Rajasthan'
     },
     {
         id:"28",
-        img: Sikkim,
+        img: UttarPradesh,
         stateName: 'Sikkim'
     },
     {
         id:"29",
-        img: TamilNadu,
+        img: UttarPradesh,
         stateName: 'Tamil Nadu'
     },
     {
         id:"30",
-        img: Tripura,
+        img: UttarPradesh,
         stateName: 'Tripura'
     },
     {
         id:"31",
-        img: Uttaranchal,
+        img: UttarPradesh,
         stateName: 'Uttaranchal'
     },
     {
@@ -197,7 +197,7 @@ const StateData = [
     },
     {
         id:"33",
-        img: WestBengal,
+        img: UttarPradesh,
         stateName: 'Uttar Pradesh',
     },
 
