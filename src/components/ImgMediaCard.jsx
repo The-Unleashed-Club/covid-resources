@@ -16,6 +16,7 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 345,
     margin: '2%',
+    boxShadow: '3px 3px 5px 6px #ccc'
   },
 });
 
@@ -46,18 +47,14 @@ export default function ImgMediaCard(props) {
 };
 const styles = {
   btn: {
-    backgroundColor: '#808080',
-    paddingLeft: '0.5%',
-    paddingRight: '0.5%',
-    paddingTop: '0.2%',
-    paddingBottom: '0.2%',
+    backgroundColor: '#34c759',
+    padding: '5px',
     margin: '1%',
-    color: '#000000',
     fontSize: '20px',
-    borderStyle: 'solid',
-    borderWidth: '1px',
+    //borderStyle: 'solid',
+    //borderWidth: '1px',
     borderRadius: '5px',
     textDecoration: 'none',
-
+    color: '#ffffff',
   },
 };
