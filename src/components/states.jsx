@@ -11,7 +11,6 @@ function CardData(val) {
 		imgSrc={val.img} 
 		title={val.stateName}
 	  />
-	  </>
 	);
 }
 console.log(AndraPradeshData[1]);
@@ -32,6 +31,8 @@ const styles ={
     flexWrap: 'wrap',
 	alignItems: 'center',
     justifyContent: 'center',
+	backgroundColor: '#F0FFFF',
+	paddingBottom: '3%',
   }
 
 };

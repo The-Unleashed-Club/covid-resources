@@ -38,6 +38,8 @@ const styles = {
         flexWrap: 'wrap',
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: '#f0ffff',
+        paddingBottom:'3%',
     }
 
 };
