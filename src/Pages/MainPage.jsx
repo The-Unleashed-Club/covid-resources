@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 //import { Route, BrowserRouter, Switch } from 'react-router-dom'
-import Button from '@material-ui/core/Button';
+//import Button from '@material-ui/core/Button';
 const Main = () => {
   return (
     <>
@@ -9,15 +9,15 @@ const Main = () => {
         <h1>RESOURCES</h1>
         <div style={styles.buttonBox}>
           <ul>
-            <Button variant="contained" ><Link to="/Amb">Ambulance</Link></Button>
-            <Button variant="contained" ><Link to="/Beds">Beds</Link></Button>
-            <Button variant="contained" > <Link to="/Guide">Guide</Link></Button>
-            <Button variant="contained" > <Link to="/Ngo">Ngo</Link></Button>
-            <Button variant="contained" > <Link to="/Medi">Medicines</Link></Button>
-            <Button variant="contained" ><Link to="/OxyCans">Oxycans</Link></Button>
-            <Button variant="contained" > <Link to="/OxyCOnc">Oxyconc</Link></Button>
-            <Button variant="contained" ><Link to="/OxyRefil">OxyRefil</Link></Button>
-            <Button variant="contained" > <Link to="/OxyCyl">OxyCyl</Link></Button>
+            <Link style={styles.btn} to="/Amb">Ambulance</Link>
+            <Link style={styles.btn} to="/Beds">Beds</Link>
+            <Link style={styles.btn} to="/Guide">Guide</Link>
+            <Link style={styles.btn} to="/Ngo">Ngo</Link>
+            <Link style={styles.btn} to="/Medi">Medicines</Link>
+            <Link style={styles.btn} to="/OxyCans">Oxycans</Link>
+            <Link style={styles.btn} to="/OxyCOnc">Oxyconc</Link>
+            <Link style={styles.btn} to="/OxyRefil">OxyRefil</Link>
+            <Link style={styles.btn} to="/OxyCyl">OxyCyl</Link>
           </ul>
         </div>
       </div>
@@ -29,8 +29,9 @@ const styles = {
     padding: '2%',
     marginTop: '1%',
     marginBottom: '1%',
+    backgroundColor: '#f0ffff',
   },
-  buttonBox:{
+  buttonBox: {
     display: 'flex',
     flexDirection: 'column',
     /* flex-wrap: wrap; */
@@ -38,5 +39,17 @@ const styles = {
     alignItems: 'center',
     alignContent: 'space-between',
   },
+  btn: {
+    backgroundColor: '#34c759',
+    padding: '5px',
+    margin: '1%',
+    fontSize: '20px',
+    borderRadius: '5px',
+    textDecoration: 'none',
+    color: '#ffffff',
+    //borderStyle: 'solid',
+    //borderWidth: '1px',
+  },
+
 };
 export default Main
