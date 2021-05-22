@@ -1,6 +1,6 @@
-const JammukashmirData =[
+const PuducherryData =[
     {
-        city:"Srinagar ",
+        city:"Patna",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -10,7 +10,7 @@ const JammukashmirData =[
         VerficationDataTime :"",
     },
     {
-        city:"Jammu",
+        city:"Gaya",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -20,7 +20,7 @@ const JammukashmirData =[
         VerficationDataTime :"",
     },
     {
-        city:"Anantnag",
+        city:"Bhagalpur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -30,7 +30,7 @@ const JammukashmirData =[
         VerficationDataTime :"",
     },
     {
-        city:"Udhampur",
+        city:"Muzaffarpur",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -40,7 +40,7 @@ const JammukashmirData =[
         VerficationDataTime :"",
     },
     {
-        city:"Rajouri",
+        city:"Siwan",
         nameOfFacility:"",
         address: "near Subhash Nagar mall",
         contact: "8766357982",
@@ -53,4 +53,4 @@ const JammukashmirData =[
 ];
 
 
-export default JammukashmirData
+export default PuducherryData
