@@ -1,9 +1,11 @@
 //import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Header from './Header';
 
 const Nav = () => {
   return (
     <>
+    <Header/>
       <div style={styles.Nav}>
         <Link style={styles.btn} to="/About">About Us</Link>
         <Link style={styles.btn} to="/Blog">Blog</Link>
