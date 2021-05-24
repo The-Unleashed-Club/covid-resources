@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState, useContext} from 'react';
 import ForwardIcon from '@material-ui/icons/Forward';
 
 import Amb from './Amb';
@@ -8,9 +8,11 @@ import OxyCans from './OxyCans';
 import OxyConc from './OxyConc';
 import OxyCyl from './OxyCyl';
 import OxyRefil from './OxyRefil';
+import appContext from '../context/AppContext';
 
 const Main = () => {
   const[buttonId, setButton]=useState(0)
+  const {data} = useContext(appContext)
 
   const handleClick = (Id) => {
     setButton(Id);
@@ -54,6 +56,7 @@ const Main = () => {
           {buttonId === 7 && <OxyRefil />}
        
 
+        {console.log(data)}
         </div>
       </div>
     );
