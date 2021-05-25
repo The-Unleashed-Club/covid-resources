@@ -10,7 +10,8 @@ import Typography from '@material-ui/core/Typography';
 //import SimpleModal from './PopUp';
 //import Main from '../Pages/MainPage';
 import { Link } from "react-router-dom";
-//import StateData from './StateData'
+import StateCardData from './StateCardData';
+
 
 const useStyles = makeStyles({
   root: {
@@ -40,11 +41,20 @@ export default function ImgMediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Link style={styles.btn} to="/Main">Resources</Link>
+        <Link style={styles.btn} to={{
+          pathname:'/Main',
+          MainProps:{
+            id:props.Key
+              
+          }
+        }}>Resources</Link>
       </CardActions>
     </Card>
+    
   );
+
 };
+console.log(StateCardData[1].stateLeadsData);
 const styles = {
   btn: {
     backgroundColor: '#34c759',
