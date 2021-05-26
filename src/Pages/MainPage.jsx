@@ -1,18 +1,39 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import ForwardIcon from '@material-ui/icons/Forward';
-import Amb from './Amb';
+//import Amb from './Amb';
 import Beds from './Beds';
 import Medi from './Medi';
 import OxyCans from './OxyCans';
 import OxyConc from './OxyConc';
 import OxyCyl from './OxyCyl';
 import OxyRefil from './OxyRefil';
-import appContext from '../context/AppContext';
+//import appContext from '../context/AppContext';
+//import StateLeads from '../components/StateLeads'
+import OutlinedCard from '../components/OutlinedCard'
+
+//map function for indivisual leads passing data 
+function CardData(val) {
+    return (
+        <OutlinedCard city={val.city}
+            nameOfFacility={val.nameOfFacility}
+            address={val.address}
+            contact={val.contact}
+            avalability={val.avalability}
+            price={val.price}
+            comments={val.comments}
+            VerficationDataTime={val.VerficationDataTime}
+        />
+    );
+}
+
 
 const Main = (props) => {
-  console.log(props.location.MainProps);
+
+  //define the Value with the data which is coming from button click
+  const Value = props.location.MainProps.IndividualData;
+  
   const [buttonId, setButton] = useState(0)
-  const { data } = useContext(appContext)
+  //const { data } = useContext(appContext)
 
   const handleClick = (Id) => {
     setButton(Id);
@@ -48,8 +69,11 @@ const Main = (props) => {
             type="button" style={styles.btn} />
 
         </div>
-
-        {buttonId === 1 && <Amb />}
+        {/*{console.log(Value)}*/}
+        {/*map the data with uppar define function, value which is coming from imgMediaCard button  */}
+        {buttonId === 1 &&  <div style={styles.items}>
+            {Value.map(CardData)}
+        </div>}
         {buttonId === 2 && <Beds />}
         {buttonId === 3 && <Medi />}
         {buttonId === 4 && <OxyCans />}
@@ -95,6 +119,15 @@ const styles = {
     borderRadius: '5px',
 
   },
+  items: {
+    display: 'flex',
+    flexDirection: 'column',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#f0ffff',
+    paddingBottom:'3%',
+}
 
 };
 export default Main
