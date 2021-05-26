@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import Footer from './components/Footer';
 import States from './components/states';
 
@@ -15,30 +14,33 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom'
 
 import Main from '../src/Pages/MainPage';
 
-import Screen2 from './screens/Screen2'
+//import Screen2 from './screens/Screen2'
+
+//context api
+
+import AppState from './context/AppState'
 
 
 const App = () => {
   return (
     <>
       
-
-
       < BrowserRouter >
         <Nav />
         <div>
+          <AppState>
+          
+            <Switch>
+              <Route exact path="/" component={States} />
+              <Route path="/Main" component={Main} />
 
-          <Switch>
+              <Route path="/About" component={About} />
+              <Route path="/Blog" component={Blog} />
+              <Route path="/Donate" component={Donate} />
+              <Route path="/Leads" component={Leads} />
+            </Switch>
 
-            <Route exact path="/" component={States} />
-            <Route path="/Main" component={Main} />
-
-            <Route path="/About" component={About} />
-            <Route path="/Blog" component={Blog} />
-            <Route path="/Donate" component={Donate} />
-            <Route path="/Leads" component={Leads} />
-
-          </Switch>
+          </AppState>
         </div>
       </ BrowserRouter >
 
