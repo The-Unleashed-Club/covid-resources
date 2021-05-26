@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Header from './components/Header'
 import Footer from './components/Footer';
 import States from './components/states';
 
@@ -25,7 +24,7 @@ import AppState from './context/AppState'
 const App = () => {
   return (
     <>
-      <Header />
+      
       < BrowserRouter >
         <Nav />
         <div>

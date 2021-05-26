@@ -10,6 +10,7 @@ function CardData(val) {
 		<ImgMediaCard Key={val.id} 
 		imgSrc={val.img} 
 		title={val.stateName}
+		StateLeadsIndividualData ={val.stateLeadsData}
 	  />  
 	);
 }
