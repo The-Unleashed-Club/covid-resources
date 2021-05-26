@@ -44,7 +44,8 @@ export default function ImgMediaCard(props) {
         <Link style={styles.btn} to={{
           pathname:'/Main',
           MainProps:{
-            id:props.Key
+            id:props.Key,
+            IndividualData : props.StateLeadsIndividualData
               
           }
         }}>Resources</Link>
