@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Firebase from './Firebase/Firebase'
+
 import Footer from './components/Footer';
 import States from './components/states';
 
@@ -17,14 +19,13 @@ import Main from '../src/Pages/MainPage';
 //import Screen2 from './screens/Screen2'
 
 //context api
-
 import AppState from './context/AppState'
+
 
 
 const App = () => {
   return (
     <>
-      
       < BrowserRouter >
         <Nav />
         <div>
