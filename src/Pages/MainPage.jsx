@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import firebase from 'firebase';
+
 import ForwardIcon from '@material-ui/icons/Forward';
 //import Amb from './Amb';
 import Beds from './Beds';
@@ -11,10 +13,16 @@ import OxyRefil from './OxyRefil';
 //import StateLeads from '../components/StateLeads'
 import OutlinedCard from '../components/OutlinedCard'
 
+//db
+const db = firebase.database();
+
 //map function for indivisual leads passing data 
-function CardData(val) {
+
+function CardData(val,index) {
     return (
-        <OutlinedCard city={val.city}
+
+        <OutlinedCard key={index}
+        city={val.city}
             nameOfFacility={val.nameOfFacility}
             address={val.address}
             contact={val.contact}
@@ -29,9 +37,16 @@ function CardData(val) {
 
 const Main = (props) => {
 
+
+
+
+ 
+
   //define the Value with the data which is coming from button click
-  const Value = props.location.MainProps.IndividualData;
+  const Value = props.location.MainProps.titleName;
   
+  
+
   const [buttonId, setButton] = useState(0)
   //const { data } = useContext(appContext)
 
@@ -74,14 +89,14 @@ const Main = (props) => {
         {buttonId === 1 &&  <div style={styles.items}>
             {Value.map(CardData)}
         </div>}
-        {buttonId === 2 && <Beds />}
+        {buttonId === 2 && <Beds stateName={Value} />}
         {buttonId === 3 && <Medi />}
         {buttonId === 4 && <OxyCans />}
         {buttonId === 5 && <OxyConc />}
         {buttonId === 6 && <OxyCyl />}
         {buttonId === 7 && <OxyRefil />}
 
-
+{console.log(Value)}
       </div>
     </div>
   );
