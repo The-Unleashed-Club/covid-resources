@@ -4,10 +4,10 @@ import StateCardData from './StateCardData';
 //import AndraPradeshData from '../StatesLeads/AndraPradesh'
 //import AndhraPradesh from '../images/AndraPradesh.jpg'
 
-function CardData(val) {
+function CardData(val,index) {
 	//console.log(val.stateLeadsData)
 	return(
-		<ImgMediaCard Key={val.id} 
+		<ImgMediaCard key={index} 
 		imgSrc={val.img} 
 		title={val.stateName}
 		StateLeadsIndividualData ={val.stateLeadsData}
