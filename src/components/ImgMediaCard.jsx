@@ -45,8 +45,8 @@ export default function ImgMediaCard(props) {
           pathname:'/Main',
           MainProps:{
             id:props.Key,
+            titleName:props.title,
             IndividualData : props.StateLeadsIndividualData
-              
           }
         }}>Resources</Link>
       </CardActions>
