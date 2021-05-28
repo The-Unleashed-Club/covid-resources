@@ -40,7 +40,7 @@ const Main = (props) => {
 
   return (
     <div style={styles.main}>
-      <div>
+     
 
         <h1 style={styles.head}>RESOURCES<ForwardIcon /></h1>
 
@@ -80,31 +80,31 @@ const Main = (props) => {
 
 {console.log(Value)}
       </div>
-    </div>
+  
   );
 }
 
 
 
 const styles = {
-  main: {
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    margin: '1%',
 
+  main: {
+    margin:'1%',
   },
+
+
   head: {
     fontSize: '30px',
-
   },
+
+  
   buttonBox: {
-
-    display: 'flex',
-    flexDirection: 'row',
-    marginLeft: '20%',
+   //display: 'flex',
+  flexDirection: 'row',
+   // marginLeft: '20%',
 
   },
+  
   btn: {
     backgroundColor: '#F0FFFF',
     color: '#000000',
@@ -116,15 +116,7 @@ const styles = {
     borderRadius: '5px',
 
   },
-  items: {
-    display: 'flex',
-    flexDirection: 'column',
-    flexWrap: 'wrap',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#f0ffff',
-    paddingBottom:'3%',
-}
+
 
 };
 export default Main
