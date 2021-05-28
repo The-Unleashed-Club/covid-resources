@@ -1,6 +1,8 @@
 import React from 'react';
 import firebase from 'firebase';
-import {useEffect , useState} from 'react'
+import {useEffect , useState} from 'react';
+import OutlinedCard from '../components/OutlinedCard'
+
 
 
 const db = firebase.database();
@@ -20,13 +22,36 @@ useEffect(() => {
   })
 }, [])
 
-
 return (
   <>
 <h1>bed facility</h1>
-{data.filter(element => element.city == "Patna" ).map( (element,index) => <li key={index}>abx1.{element.city}</li> )}
-  </>
+{data.filter(element => element.resourcesName == "Beds" ).map( (element,index) => <div style={styles.items}>
+<OutlinedCard city={element.city}
+resourcesName={element.resourcesName}
+          nameOfFacility={element.nameOfFacility}
+          address={element.address}
+          contact={element.contact}
+          avalability={element.avalability}
+          price={element.price}
+          comments={element.comments}
+          VerficationDataTime={element.VerficationDataTime}
+      />
+</div>)}
+</>
 )
+}
+
+const styles = {
+  items: {
+      display: 'flex',
+      flexDirection: 'column',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#f0ffff',
+      paddingBottom:'3%',
+  }
+
 };
 
 export default Beds
