@@ -37,6 +37,9 @@ export default function OutlinedCard(props) {
         <Typography variant="h5" component="h2">
           city : {props.city}
         </Typography>
+        <Typography variant="body2" component="p">
+        Resources Name : {props.resourcesName}
+        </Typography>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
           Name Of Facility :{props.nameOfFacility}
         </Typography>
