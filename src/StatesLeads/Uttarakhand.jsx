@@ -7,7 +7,7 @@ const UttarakhandData =[
         Price: " ",
         Comments: " ",
         verficationDataTime: "4th May",
-        vendorName: "oxygen refill"
+        vendorName: "oxygen refill",
     },
  
 ];
