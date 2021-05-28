@@ -2,37 +2,21 @@ import React, { useState, useEffect } from 'react';
 import firebase from 'firebase';
 
 import ForwardIcon from '@material-ui/icons/Forward';
-//import Amb from './Amb';
+import Ambulance from './Ambulance';
 import Beds from './Beds';
-import Medi from './Medi';
-import OxyCans from './OxyCans';
-import OxyConc from './OxyConc';
-import OxyCyl from './OxyCyl';
-import OxyRefil from './OxyRefil';
+import Medicine from './Medicine';
+import OxygenCans from './OxygenCans';
+import OxygenConcentrators from './OxygenConcentrators';
+import OxygenCylinders from './OxygenCylinders';
+import OxygenRefiling from './OxygenRefiling'
 //import appContext from '../context/AppContext';
 //import StateLeads from '../components/StateLeads'
-import OutlinedCard from '../components/OutlinedCard'
+
 
 //db
 const db = firebase.database();
 
 //map function for indivisual leads passing data 
-
-function CardData(val,index) {
-    return (
-
-        <OutlinedCard key={index}
-        city={val.city}
-            nameOfFacility={val.nameOfFacility}
-            address={val.address}
-            contact={val.contact}
-            avalability={val.avalability}
-            price={val.price}
-            comments={val.comments}
-            VerficationDataTime={val.VerficationDataTime}
-        />
-    );
-}
 
 
 const Main = (props) => {
@@ -86,15 +70,13 @@ const Main = (props) => {
         </div>
         {/*{console.log(Value)}*/}
         {/*map the data with uppar define function, value which is coming from imgMediaCard button  */}
-        {buttonId === 1 &&  <div style={styles.items}>
-            {Value.map(CardData)}
-        </div>}
+        {buttonId === 1 && <Ambulance stateName={Value} />} 
         {buttonId === 2 && <Beds stateName={Value} />}
-        {buttonId === 3 && <Medi />}
-        {buttonId === 4 && <OxyCans />}
-        {buttonId === 5 && <OxyConc />}
-        {buttonId === 6 && <OxyCyl />}
-        {buttonId === 7 && <OxyRefil />}
+        {buttonId === 3 && <Medicine stateName={Value}/>}
+        {buttonId === 4 && <OxygenCans stateName={Value}/>}
+        {buttonId === 5 && <OxygenConcentrators stateName={Value}/>}
+        {buttonId === 6 && <OxygenCylinders stateName={Value}/>}
+        {buttonId === 7 && <OxygenRefiling stateName={Value}/>}
 
 {console.log(Value)}
       </div>
