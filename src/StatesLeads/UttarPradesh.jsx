@@ -7,7 +7,7 @@ const UttarPradeshData =[
         Price: " ",
         Comments: "only EMERGENCY",
         verficationDataTime: "03-05-2021",
-        vendorName: "ghaziabad"
+        vendorName: "ghaziabad",
     },
     
     {
@@ -18,7 +18,7 @@ const UttarPradeshData =[
         Price: " ",
         Comments: " ",
         verficationDataTime: "5th May, 11:09 am",
-        vendorName: "oxygen refill"
+        vendorName: "oxygen refill",
     },
     {
         City: "Ghaziabad",
@@ -28,7 +28,7 @@ const UttarPradeshData =[
         Price: " ",
         Comments: " ",
         verficationDataTime: "03-05-2021",
-        vendorName: ""
+        vendorName: "",
     },
     {
         City: "Lucknow",
@@ -38,7 +38,7 @@ const UttarPradeshData =[
         Price: " ",
         Comments: " ",
         verficationDataTime: "03-05-2021",
-        vendorName: "AYUSH oxygen"
+        vendorName: "AYUSH oxygen",
     },
     {
         City: "Lucknow",
@@ -48,7 +48,7 @@ const UttarPradeshData =[
         Price: " ",
         Comments: "COD Available ",
         verficationDataTime: "5th may 12:15pm",
-        vendorName: "oxygen cylinders"
+        vendorName: "oxygen cylinders",
     },
     {
         City: "Meerut",
@@ -58,7 +58,7 @@ const UttarPradeshData =[
         Price: "880 ",
         Comments: " ",
         verficationDataTime: "4th May",
-        vendorName: "Pulse Oxymeter"
+        vendorName: "Pulse Oxymeter",
     },
     {
         City: "Meerut",
@@ -68,7 +68,7 @@ const UttarPradeshData =[
         Price: "",
         Comments: " ",
         verficationDataTime: "5th May, 7:30pm",
-        vendorName: "Kansal Industrial Gaases"
+        vendorName: "Kansal Industrial Gaases",
     },
 ];
 
