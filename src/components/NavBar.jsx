@@ -10,7 +10,7 @@ const Nav = () => {
         <Link style={styles.btn} to="/About">About Us</Link>
         <Link style={styles.btn} to="/Blog">Blog</Link>
         <Link to={{ pathname: "https://forms.gle/Qg5jbCjdapEsWGo19" }} 
-target="_blank" style={styles.btn} >Submit Verified Leads</Link>
+target="_blank" style={styles.btn} >Join Us as a Volunteer</Link>
 
       </div>
     </>
