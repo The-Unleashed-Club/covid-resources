@@ -24,7 +24,7 @@ useEffect(() => {
 return (
   <>
 <h1>Oxygen facility</h1>
-{data.filter(element => element.resourcesName == "Oxygen" ).map( (element,index) => <div style={styles.items}>
+{data.filter(element => element.nameOfResource == "Oxygen" ).map( (element,index) => <div style={styles.items}>
 <OutlinedCard City={element.City}
 nameOfResource={element.nameOfResource}
           Address={element.Address}
