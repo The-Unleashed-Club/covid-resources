@@ -81,7 +81,8 @@ const Main = (props) => {
 const styles = {
 
   main: {
-    margin:'1%',
+    //margin:'1%',
+    backgroundColor: '#F0FFFF',
   },
 
 
@@ -98,14 +99,15 @@ const styles = {
   },
 
   btn: {
-    backgroundColor: '#F0FFFF',
-    color: '#000000',
+    backgroundColor: '#34c759',
+    color: '#FFFFFF',
     padding: '7px',
     margin: '1%',
     fontSize: '20px',
-    //borderStyle: 'solid',
-    //borderWidth: '1px',
+    borderStyle: 'solid',
+    borderWidth: '0.5px',
     borderRadius: '5px',
+    borderColor:'#FFFFFF',
 
   },
 
