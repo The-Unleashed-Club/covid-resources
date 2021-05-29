@@ -11,6 +11,7 @@ function CardData(val,index) {
 		imgSrc={val.img} 
 		title={val.stateName}
 		StateLeadsIndividualData ={val.stateLeadsData}
+		stName={val.Title}
 	  />  
 	);
 }
