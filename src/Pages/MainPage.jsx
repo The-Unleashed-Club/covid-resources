@@ -6,7 +6,7 @@ import Ambulance from './Ambulance';
 import Beds from './Beds';
 import Medicine from './Medicine';
 import OxygenCans from './OxygenCans';
-import OxygenConcentrators from './OxygenConcentrators';
+import Oxygen from './Oxygen';
 import OxygenCylinders from './OxygenCylinders';
 import OxygenRefiling from './OxygenRefiling'
 //import appContext from '../context/AppContext';
@@ -21,16 +21,9 @@ const db = firebase.database();
 
 const Main = (props) => {
 
-
-
-
- 
-
   //define the Value with the data which is coming from button click
   const Value = props.location.MainProps.titleName;
   
-  
-
   const [buttonId, setButton] = useState(0)
   //const { data } = useContext(appContext)
 
@@ -54,11 +47,11 @@ const Main = (props) => {
           <input className={buttonId === 3 ? "button3" :
             "button1"} onClick={() => handleClick(3)} value="Medicines"
             type="button" style={styles.btn} />
-          <input className={buttonId === 4 ? "button4" :
+          {/* <input className={buttonId === 4 ? "button4" :
             "button1"} onClick={() => handleClick(4)} value="Oxygen Cans"
-            type="button" style={styles.btn} />
+            type="button" style={styles.btn} /> */}
           <input className={buttonId === 5 ? "button5" :
-            "button1"} onClick={() => handleClick(5)} value="Oxygen Concentrators"
+            "button1"} onClick={() => handleClick(5)} value="Oxygen"
             type="button" style={styles.btn} />
           <input className={buttonId === 6 ? "button6" :
             "button1"} onClick={() => handleClick(6)} value="Oxygen Cylinders"
@@ -68,13 +61,12 @@ const Main = (props) => {
             type="button" style={styles.btn} />
 
         </div>
-        {/*{console.log(Value)}*/}
         {/*map the data with uppar define function, value which is coming from imgMediaCard button  */}
         {buttonId === 1 && <Ambulance stateName={Value} />} 
         {buttonId === 2 && <Beds stateName={Value} />}
         {buttonId === 3 && <Medicine stateName={Value}/>}
-        {buttonId === 4 && <OxygenCans stateName={Value}/>}
-        {buttonId === 5 && <OxygenConcentrators stateName={Value}/>}
+        {/* {buttonId === 4 && <OxygenCans stateName={Value}/>} */}
+        {buttonId === 5 && <Oxygen stateName={Value}/>}
         {buttonId === 6 && <OxygenCylinders stateName={Value}/>}
         {buttonId === 7 && <OxygenRefiling stateName={Value}/>}
 
@@ -104,7 +96,7 @@ const styles = {
    // marginLeft: '20%',
 
   },
-  
+
   btn: {
     backgroundColor: '#F0FFFF',
     color: '#000000',
