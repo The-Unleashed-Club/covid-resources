@@ -1,5 +1,19 @@
 //import React from 'react';
-//import AndhraPradesh from '../images/AndraPradesh.jpg';
+import img1 from '../images/img1.jpeg'
+import img2 from '../images/img2.jpeg'
+import img3 from '../images/img3.jpeg'
+import img4 from '../images/img4.jpeg'
+import img5 from '../images/img5.jpeg'
+import testImage from '../images/testImage.png';
+import illustrator1 from '../images/illustrator1.png'
+import illustrator2 from '../images/illustrator2.png'
+import illustrator4 from '../images/illustrator4.png'
+import illustrator5 from '../images/illustrator5.png'
+import illustrator6 from '../images/illustrator6.png'
+import image2 from '../images/image2.png'
+
+
+
 //import ArunachalPradesh from '../images/ArunachalPradesh.jpg';
 //import Assam from '../images/Assam.jpg';
 //import  from '../images/.jpg';
@@ -66,7 +80,7 @@ import RajasthanData from '../StatesLeads/Rajasthan';
 import SikkimData from '../StatesLeads/Sikkim';
 import TamilNaduData from '../StatesLeads/TamilNadu';
 import TripuraData from '../StatesLeads/Tripura';
-import UttaranchalData from '../StatesLeads/Uttaranchal';
+import UttarakhandData from '../StatesLeads/Uttarakhand';
 import UttarPradeshData from '../StatesLeads/UttarPradesh';
 import WestBengalData from '../StatesLeads/WestBengal';
 
@@ -75,202 +89,202 @@ import WestBengalData from '../StatesLeads/WestBengal';
 const StateCardData = [
     {
         id: "1",
-        img: UttarPradesh,
-        stateName: 'Andhra Pradesh',
+        img: img1,
+        stateName: 'AndhraPradesh',
         stateLeadsData: AndraPradeshData,
 
     },
     {
         id: "2",
-        img: UttarPradesh,
+        img: img2,
         stateName: 'Assam',
         stateLeadsData: AssamData ,
     },
     {
         id: "3",
-        img: UttarPradesh,
-        stateName: 'Arunachal Pradesh',
+        img: img3,
+        stateName: 'ArunachalPradesh',
         stateLeadsData: ArunachalPradeshData,
     },
     {
         id: "4",
-        img: UttarPradesh,
+        img: img4,
         stateName: 'Bihar',
         stateLeadsData: BiharData,
     },
     {
         id: "5",
-        img: UttarPradesh,
+        img: img5,
         stateName: 'Chhattisgarh',
         stateLeadsData: ChhattisgarhData,
     },
     {
         id: "6",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Chandigarh',
         stateLeadsData: ChandigarhData,
 
     },
     {
         id: "7",
-        img: UttarPradesh,
-        stateName: 'Daman and Diu',
+        img: illustrator4,
+        stateName: 'DamanAndDiu',
         stateLeadsData: DamanAndDiuData,
     },
     {
         id: "8",
-        img: UttarPradesh,
+        img: illustrator5 ,
         stateName: 'Delhi',
         stateLeadsData: DelhiData ,
     },
     {
         id: "9",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Goa',
         stateLeadsData: GoaData,
     },
     {
         id: "10",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Gujrat',
         stateLeadsData: GujratData,
     },
     {
         id: "11",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Haryana',
         stateLeadsData: HaryanaData,
     },
     {
         id: "12",
-        img: UttarPradesh,
-        stateName: 'Himachal Pradesh',
+        img: testImage,
+        stateName: 'HimachalPradesh',
         stateLeadsData: HimachalPradeshData,
     },
     {
         id: "13",
-        img: UttarPradesh,
-        stateName: 'Jammu and Kashmir',
+        img: testImage,
+        stateName: 'JammuAndKashmir',
         stateLeadsData: JammuAndKashmirData,
     },
     {
         id: "14",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Jharkhand',
         stateLeadsData: JharkhandData,
     },
     {
         id: "15",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Karnataka',
         stateLeadsData: KarnatakaData,
     },
     {
         id: "16",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Kerala',
         stateLeadsData: KeralaData,
     },
     {
         id: "17",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Ladakh',
         stateLeadsData: LadakhData,
     },
     {
         id: "18",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Lakshadweep',
         stateLeadsData: LakshadweepData ,
     },
     {
         id: "19",
-        img: UttarPradesh,
-        stateName: 'Madhya Pradesh',
+        img: testImage,
+        stateName: 'MadhyaPradesh',
         stateLeadsData: MadhyaPradeshData,
     },
     {
         id: "20",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Maharashtra',
         stateLeadsData: MaharashtraData,
     },
     {
         id: "21",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Manipur',
         stateLeadsData: ManipurData,
     },
     {
         id: "22",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Mizoram',
         stateLeadsData: MizoramData,
     },
     {
         id: "23",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Nagaland',
         stateLeadsData: NagalandData,
     },
     {
         id: "24",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Orissa',
         stateLeadsData: OrissaData,
     },
     {
         id: "25",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Puducherry',
         stateLeadsData: PuducherryData,
     },
     {
         id: "26",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Punjab',
         stateLeadsData: PunjabData,
     },
     {
         id: "27",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Rajasthan',
         stateLeadsData: RajasthanData,
     },
     {
         id: "28",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Sikkim',
         stateLeadsData: SikkimData,
     },
     {
         id: "29",
-        img: UttarPradesh,
-        stateName: 'Tamil Nadu',
+        img: testImage,
+        stateName: 'TamilNadu',
         stateLeadsData: TamilNaduData,
     },
     {
         id: "30",
-        img: UttarPradesh,
+        img: testImage,
         stateName: 'Tripura',
         stateLeadsData: TripuraData,
     },
     {
         id: "31",
-        img: UttarPradesh,
-        stateName: 'Uttaranchal',
-        stateLeadsData: UttaranchalData,
+        img: testImage,
+        stateName: 'Uttarakhand',
+        stateLeadsData: UttarakhandData,
     },
     {
         id: "32",
-        img: UttarPradesh,
-        stateName: 'Uttar Pradesh',
+        img: testImage,
+        stateName: 'UttarPradesh',
         stateLeadsData: UttarPradeshData,
     },
     {
         id: "33",
-        img: UttarPradesh,
-        stateName: 'West Bengal',
+        img: testImage,
+        stateName: 'WestBengal',
         stateLeadsData: WestBengalData,
     },
 
