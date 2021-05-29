@@ -24,16 +24,15 @@ useEffect(() => {
 return (
   <>
 <h1>Oxygen Cylinders facility</h1>
-{data.filter(element => element.resourcesName == "Oxygen Cylinders" ).map( (element,index) => <div style={styles.items}>
-<OutlinedCard city={element.city}
-resourcesName={element.resourcesName}
-          nameOfFacility={element.nameOfFacility}
-          address={element.address}
-          contact={element.contact}
-          avalability={element.avalability}
-          price={element.price}
-          comments={element.comments}
-          VerficationDataTime={element.VerficationDataTime}
+{data.filter(element => element.nameOfResource == "oxygenCylinder" ).map( (element,index) => <div style={styles.items}>
+<OutlinedCard City={element.City}
+nameOfResource={element.nameOfResource}
+          Address={element.Address}
+          Contact={element.Contact}
+          Price={element.Price}
+          Comments={element.Comments}
+          verficationDataTime={element.verficationDataTime}
+          vendorName={element.vendorName}
       />
 </div>)}
 </>

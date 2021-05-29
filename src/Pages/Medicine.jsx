@@ -25,15 +25,14 @@ return (
   <>
 <h1>Ambulance facility</h1>
 {data.filter(element => element.resourcesName == "Medicines" ).map( (element,index) => <div style={styles.items}>
-<OutlinedCard city={element.city}
-resourcesName={element.resourcesName}
-          nameOfFacility={element.nameOfFacility}
-          address={element.address}
-          contact={element.contact}
-          avalability={element.avalability}
-          price={element.price}
-          comments={element.comments}
-          VerficationDataTime={element.VerficationDataTime}
+<OutlinedCard City={element.City}
+nameOfResource={element.nameOfResource}
+          Address={element.Address}
+          Contact={element.Contact}
+          Price={element.Price}
+          Comments={element.Comments}
+          verficationDataTime={element.verficationDataTime}
+          vendorName={element.vendorName}
       />
 </div>)}
 </>

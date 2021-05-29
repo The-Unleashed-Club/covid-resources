@@ -44,7 +44,8 @@ export default function ImgMediaCard(props) {
         <Link style={styles.btn} to={{
           pathname:'/Main',
           MainProps:{
-            id:props.Key,
+            //stateID is the main id(which tells which button is clicked)
+            //StateIdName:props.StateId,
             titleName:props.title,
             IndividualData : props.StateLeadsIndividualData
           }
