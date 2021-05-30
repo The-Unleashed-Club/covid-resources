@@ -17,7 +17,21 @@ import Frame8 from '../images/Frame8.png';
 import Frame9 from '../images/Frame9.png';
 import Frame10 from '../images/Frame10.png';
 import Frame11 from '../images/Frame11.png';
-import Frame12 from '../images/Frame12.png'
+import Frame12 from '../images/Frame12.png';
+import Frame15 from '../images/Frame15.png';
+import Frame16 from '../images/Frame16.png';
+import Frame17 from '../images/Frame17.png';
+import Frame18 from '../images/Frame18.png';
+import Frame19 from '../images/Frame19.png';
+import Frame20 from '../images/Frame20.png';
+
+import Frame22 from '../images/Frame22.png';
+import Frame23 from '../images/Frame23.png';
+import Frame24 from '../images/Frame24.png';
+import Frame25 from '../images/Frame25.png';
+import Frame26 from '../images/Frame26.png';
+import Frame28 from '../images/Frame28.png';
+import Frame33 from '../images/Frame33.png';
 
 //import ArunachalPradesh from '../images/ArunachalPradesh.jpg';
 //import Assam from '../images/Assam.jpg';
@@ -168,85 +182,85 @@ const StateCardData = [
     },
     {
         id: "13",
-        img: test6,
+        img: Frame15,
         stateName: 'JammuAndKashmir',
         stateLeadsData: JammuAndKashmirData,
     },
     {
         id: "14",
-        img: test6,
+        img: Frame16,
         stateName: 'Jharkhand',
         stateLeadsData: JharkhandData,
     },
     {
         id: "15",
-        img: test6,
+        img: Frame17,
         stateName: 'Karnataka',
         stateLeadsData: KarnatakaData,
     },
     {
         id: "16",
-        img: testImage,
+        img: Frame18,
         stateName: 'Kerala',
         stateLeadsData: KeralaData,
     },
     {
         id: "17",
-        img: testImage,
+        img: Frame19,
         stateName: 'Ladakh',
         stateLeadsData: LadakhData,
     },
     {
         id: "18",
-        img: testImage,
+        img: Frame20,
         stateName: 'Lakshadweep',
         stateLeadsData: LakshadweepData ,
     },
     {
         id: "19",
-        img: testImage,
+        img:  Frame22,
         stateName: 'MadhyaPradesh',
         stateLeadsData: MadhyaPradeshData,
     },
     {
         id: "20",
-        img: testImage,
+        img:  Frame22,
         stateName: 'Maharashtra',
         stateLeadsData: MaharashtraData,
     },
     {
         id: "21",
-        img: testImage,
+        img: Frame23,
         stateName: 'Manipur',
         stateLeadsData: ManipurData,
     },
     {
         id: "22",
-        img: testImage,
+        img: Frame24,
         stateName: 'Mizoram',
         stateLeadsData: MizoramData,
     },
     {
         id: "23",
-        img: testImage,
+        img: Frame25,
         stateName: 'Nagaland',
         stateLeadsData: NagalandData,
     },
     {
         id: "24",
-        img: testImage,
+        img: Frame26,
         stateName: 'Orissa',
         stateLeadsData: OrissaData,
     },
     {
         id: "25",
-        img: testImage,
+        img: Frame28,
         stateName: 'Puducherry',
         stateLeadsData: PuducherryData,
     },
     {
         id: "26",
-        img: testImage,
+        img: Frame33,
         stateName: 'Punjab',
         stateLeadsData: PunjabData,
     },
