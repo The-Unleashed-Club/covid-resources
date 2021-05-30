@@ -1,18 +1,23 @@
 //import React from 'react';
-import img1 from '../images/img1.jpeg'
-import img2 from '../images/img2.jpeg'
-import img3 from '../images/img3.jpeg'
-import img4 from '../images/img4.jpeg'
-import img5 from '../images/img5.jpeg'
+
 import testImage from '../images/testImage.png';
-import illustrator1 from '../images/illustrator1.png'
-import illustrator2 from '../images/illustrator2.png'
-import illustrator4 from '../images/illustrator4.png'
-import illustrator5 from '../images/illustrator5.png'
-import illustrator6 from '../images/illustrator6.png'
-import image2 from '../images/image2.png'
+
+import test6 from '../images/test6.png';
 
 
+
+import Frame1 from '../images/Frame1.png';
+import Frame2 from '../images/Frame2.png';
+import Frame3 from '../images/Frame3.png';
+import Frame4 from '../images/Frame4.png';
+import Frame5 from '../images/Frame5.png';
+import Frame6 from '../images/Frame6.png';
+import Frame7 from '../images/Frame7.png';
+import Frame8 from '../images/Frame8.png';
+import Frame9 from '../images/Frame9.png';
+import Frame10 from '../images/Frame10.png';
+import Frame11 from '../images/Frame11.png';
+import Frame12 from '../images/Frame12.png'
 
 //import ArunachalPradesh from '../images/ArunachalPradesh.jpg';
 //import Assam from '../images/Assam.jpg';
@@ -89,93 +94,93 @@ import WestBengalData from '../StatesLeads/WestBengal';
 const StateCardData = [
     {
         id: "1",
-        img: img1,
+        img: Frame1,
         stateName: 'AndhraPradesh',
         stateLeadsData: AndraPradeshData,
 
     },
     {
         id: "2",
-        img: img2,
+        img: Frame2,
         stateName: 'Assam',
         stateLeadsData: AssamData ,
     },
     {
         id: "3",
-        img: img3,
+        img: Frame3,
         stateName: 'ArunachalPradesh',
         stateLeadsData: ArunachalPradeshData,
     },
     {
         id: "4",
-        img: img4,
+        img: Frame4,
         stateName: 'Bihar',
         stateLeadsData: BiharData,
     },
     {
         id: "5",
-        img: img5,
+        img: Frame5,
         stateName: 'Chhattisgarh',
         stateLeadsData: ChhattisgarhData,
     },
     {
         id: "6",
-        img: testImage,
+        img: Frame6,
         stateName: 'Chandigarh',
         stateLeadsData: ChandigarhData,
 
     },
     {
         id: "7",
-        img: illustrator4,
+        img: Frame7,
         stateName: 'DamanAndDiu',
         stateLeadsData: DamanAndDiuData,
     },
     {
         id: "8",
-        img: illustrator5 ,
+        img: Frame8 ,
         stateName: 'Delhi',
         stateLeadsData: DelhiData ,
     },
     {
         id: "9",
-        img: testImage,
+        img: Frame9,
         stateName: 'Goa',
         stateLeadsData: GoaData,
     },
     {
         id: "10",
-        img: testImage,
+        img: Frame10,
         stateName: 'Gujrat',
         stateLeadsData: GujratData,
     },
     {
         id: "11",
-        img: testImage,
+        img: Frame11,
         stateName: 'Haryana',
         stateLeadsData: HaryanaData,
     },
     {
         id: "12",
-        img: testImage,
+        img: Frame12,
         stateName: 'HimachalPradesh',
         stateLeadsData: HimachalPradeshData,
     },
     {
         id: "13",
-        img: testImage,
+        img: test6,
         stateName: 'JammuAndKashmir',
         stateLeadsData: JammuAndKashmirData,
     },
     {
         id: "14",
-        img: testImage,
+        img: test6,
         stateName: 'Jharkhand',
         stateLeadsData: JharkhandData,
     },
     {
         id: "15",
-        img: testImage,
+        img: test6,
         stateName: 'Karnataka',
         stateLeadsData: KarnatakaData,
     },
