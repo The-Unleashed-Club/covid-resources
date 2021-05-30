@@ -29,10 +29,10 @@ export default function ImgMediaCard(props) {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
+          alt="image"
           height="140"
           image={props.imgSrc}
-          title="Contemplative Reptile"
+          title="image"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
