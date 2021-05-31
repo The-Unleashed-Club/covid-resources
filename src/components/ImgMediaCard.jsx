@@ -29,14 +29,14 @@ export default function ImgMediaCard(props) {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
+          alt="image"
           height="140"
           image={props.imgSrc}
-          title="Contemplative Reptile"
+          title="image"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {props.title}
+            {props.stName}
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -44,9 +44,10 @@ export default function ImgMediaCard(props) {
         <Link style={styles.btn} to={{
           pathname:'/Main',
           MainProps:{
-            id:props.Key,
+            //stateID is the main id(which tells which button is clicked)
+            //StateIdName:props.StateId,
+            titleName:props.title,
             IndividualData : props.StateLeadsIndividualData
-              
           }
         }}>Resources</Link>
       </CardActions>

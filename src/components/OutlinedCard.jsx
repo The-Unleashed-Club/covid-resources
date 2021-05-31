@@ -35,25 +35,28 @@ export default function OutlinedCard(props) {
     <Card className={classes.root} variant="outlined">
       <CardContent>
         <Typography variant="h5" component="h2">
-          city : {props.city}
+          City : {props.City}
         </Typography>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Name Of Facility :{props.nameOfFacility}
+        <Typography variant="body2" component="p">
+        Resources Name : {props.nameOfResource}
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          address :{props.address}
+          Address :{props.Address}
         </Typography>
         <Typography variant="body2" component="p">
-          contact : {props.contact}
+          Contact : {props.Contact}
         </Typography>
         <Typography variant="body2" component="p">
-          price :{props.price}
+          Price :{props.Price}
         </Typography>
         <Typography variant="body2" component="p">
-          comments :{props.comments}
+          Comments :{props.Comments}
+        </Typography>
+        <Typography className={classes.title} color="textSecondary" gutterBottom>
+        vendor Name :{props.vendorName}
         </Typography>
         <Typography variant="body2" component="p">
-          Verfication Data Time :{props.VerficationDataTime}
+          Verfication Data Time :{props.verficationDataTime}
         </Typography>
       </CardContent>
       <CardActions>

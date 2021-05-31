@@ -9,8 +9,9 @@ const Nav = () => {
       <div style={styles.Nav}>
         <Link style={styles.btn} to="/About">About Us</Link>
         <Link style={styles.btn} to="/Blog">Blog</Link>
-        <Link style={styles.btn} to="/Donate">Donate</Link>
-        <Link style={styles.btn} to="/Leads">Submit Verified Leads</Link>
+        <Link to={{ pathname: "https://forms.gle/Qg5jbCjdapEsWGo19" }} 
+target="_blank" style={styles.btn} >Join Us as a Volunteer</Link>
+
       </div>
     </>
   )
