@@ -118,13 +118,15 @@ const Main = (props) => {
 const styles = {
 
   main: {
-    //margin:'1%',
+   // margin:'1%',
     backgroundColor: '#F0FFFF',
   },
 
 
   head: {
+   marginLeft:'1%',
     fontSize: '30px',
+   
   },
 
   
