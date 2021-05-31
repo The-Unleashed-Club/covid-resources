@@ -1,7 +1,5 @@
 //import React from 'react';
 
-import testImage from '../images/testImage.png';
-
 
 
 
@@ -31,42 +29,6 @@ import Frame25 from '../images/Frame25.png';
 import Frame26 from '../images/Frame26.png';
 import Frame28 from '../images/Frame28.png';
 import Frame33 from '../images/Frame33.png';
-
-//import ArunachalPradesh from '../images/ArunachalPradesh.jpg';
-//import Assam from '../images/Assam.jpg';
-//import  from '../images/.jpg';
-//import Bihar from '../images/Bihar.jpg';
-//import Chhattisgarh from '../images/Chhattisgarh.jpg';
-//import Chandigarh from '../images/Chandigarh.jpg';
-//import DamanAndDiu from '../images/DamanAndDiu.jpg';
-//import Delhi from '../images/Delhi.jpg';
-//import Goa from '../images/Goa.jpg';
-//import Gujrat from '../images/Gujrat.jpg';
-//import Haryana from '../images/Haryana.jpg';
-//import HimachalPradesh from '../images/HimachalPradesh.jpg';
-//import JammuAndKashmir from '../images/JammuAndKashmir.jpg';
-//import Jharkhand from '../images/Jharkhand.jpg';
-//import Karnataka from '../images/Karnataka.jpg';
-//import Kerala from '../images/Kerala.jpg';
-//import Ladakh from '../images/Ladakh.jpg';
-//import Lakshadweep from '../images/Lakshadweep.jpg';
-//import MadhyaPradesh from '../images/MadhyaPradesh.jpg';
-//import Maharashtra from '../images/Maharashtra.jpg';
-//import Manipur from '../images/Manipur.jpg';
-//import Mizoram from '../images/Mizoram.jpg';
-//import Nagaland from '../images/Nagaland.jpg';
-//import Orissa from '../images/Orissa.jpg';
-//import Puducherry from '../images/Puducherry.jpg';
-//import Punjab from '../images/Punjab.jpg';
-//import Rajasthan from '../images/Rajasthan.jpg';
-//import Sikkim from '../images/Sikkim.jpg';
-//import TamilNadu from '../images/TamilNadu.jpg';
-//import Tripura from '../images/Tripura.jpg';
-//import Uttaranchal from '../images/Uttaranchal.jpg';
-import UttarPradesh from '../images/UttarPradesh.png';
-//import WestBengal from '../images/WestBengal.jpg';
-
-//stateLeadesData is leads of every state(dummyData)
 
 import AndraPradeshData from '../StatesLeads/AndraPradesh';
 import ArunachalPradeshData from '../StatesLeads/ArunachalPradesh';
@@ -115,7 +77,7 @@ const StateCardData = [
     },
     {
         id: "2",
-        img: Frame2,
+        img: Frame24,
         stateName: 'Assam',
         stateLeadsData: AssamData ,
         Title:"Assam",
@@ -158,7 +120,7 @@ const StateCardData = [
     },
     {
         id: "8",
-        img: Frame8 ,
+        img: Frame25 ,
         stateName: 'Delhi',
         stateLeadsData: DelhiData ,
         Title:"Delhi",
@@ -243,7 +205,7 @@ const StateCardData = [
     },
     {
         id: "20",
-        img:  Frame22,
+        img:  Frame11,
         stateName: 'Maharashtra',
         stateLeadsData: MaharashtraData,
         Title:"Mahrashtra",
@@ -264,7 +226,7 @@ const StateCardData = [
     },
     {
         id: "23",
-        img: Frame25,
+        img: Frame8,
         stateName: 'Nagaland',
         stateLeadsData: NagalandData,
         Title:"Nagaland",
@@ -292,49 +254,49 @@ const StateCardData = [
     },
     {
         id: "27",
-        img: testImage,
+        img: Frame2,
         stateName: 'Rajasthan',
         stateLeadsData: RajasthanData,
         Title:"Rajasthan",
     },
     {
         id: "28",
-        img: testImage,
+        img: Frame9,
         stateName: 'Sikkim',
         stateLeadsData: SikkimData,
         Title:"Sikkim",
     },
     {
         id: "29",
-        img: testImage,
+        img: Frame6,
         stateName: 'TamilNadu',
         stateLeadsData: TamilNaduData,
         Title:"Tamil Nadu",
     },
     {
         id: "30",
-        img: testImage,
+        img: Frame3,
         stateName: 'Tripura',
         stateLeadsData: TripuraData,
         Title:"Tripura",
     },
     {
         id: "31",
-        img: testImage,
+        img: Frame2,
         stateName: 'Uttarakhand',
         stateLeadsData: UttarakhandData,
         Title:"Uttarakhand",
     },
     {
         id: "32",
-        img: testImage,
+        img: Frame24,
         stateName: 'UttarPradesh',
         stateLeadsData: UttarPradeshData,
         Title:"Uttar Pradesh"
     },
     {
         id: "33",
-        img: testImage,
+        img: Frame1,
         stateName: 'WestBengal',
         stateLeadsData: WestBengalData,
         Title:"West Bengal",
