@@ -57,4 +57,4 @@ const styles = {
 
 };
 
-export default Medicines
+export default Medicine
