@@ -35,6 +35,7 @@ const styles = {
         justifyContent: 'center',
         backgroundColor: '#f0ffff',
         paddingBottom:'3%',
+        fontFamily: 'Poppins',
     }
 
 };
