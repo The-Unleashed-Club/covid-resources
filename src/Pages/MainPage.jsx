@@ -11,10 +11,8 @@ import BloodBanks from './BloodBanks';
 import TestingCenters from './TestingCenters';
 import FoodDistribution from './FoodDistribution';
 import HomeCare from './Homecare';
-import HumanSupporters from './HumanSupporters';
 import PlasmaDonors from './PlasmaDonors';
-import ResourceAgencies from './ResourceAgencies';
-import WomenInCardiology from './WomenInCardiology';
+import Others from './Others';
 
 //map function for indivisual leads passing data 
 
@@ -78,8 +76,8 @@ const Main = (props) => {
         <input className={buttonId === 12 ? "button8" :
           "button1"} onClick={() => handleClick(12)} value="Food Distribution"
           type="button" style={styles.btn} />
-          <input className={buttonId === 13 ? "button8" :
-          "button1"} onClick={() => handleClick(13)} value="others"
+  <input className={buttonId === 13 ? "button8" :
+          "button1"} onClick={() => handleClick(13)} value="Others"
           type="button" style={styles.btn} />
 
 
@@ -97,7 +95,7 @@ const Main = (props) => {
       {buttonId === 10 && <BloodBanks stateName={Value} />}
       {buttonId === 11 && <HomeCare stateName={Value} />}
       {buttonId === 12 && <FoodDistribution stateName={Value} />}
-      {buttonId === 13 && <ResourceAgencies stateName={Value} />}
+      {buttonId === 13 && <Others stateName={Value} />}
 
 {console.log(Value)}
       </div>
