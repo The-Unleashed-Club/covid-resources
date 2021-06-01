@@ -17,7 +17,7 @@ const HomeCare = (props) => {
         dataref.once('value', async (snapshot) => {
             let data = await snapshot.val()
             setdata(data == null ? [] : data)
-            console.log(data);
+            //console.log(data);
         })
     }, [])
 
@@ -26,6 +26,7 @@ const HomeCare = (props) => {
             <h1 style={styles.head}>Home Care</h1>
             {data.filter(element => element.nameOfResource == "homeCare").map((element, index) => <div style={styles.items}>
                 <OutlinedCard City={element.City}
+                key={index}
                     nameOfResource={element.nameOfResource}
                     Address={element.Address}
                     Contact={element.Contact}

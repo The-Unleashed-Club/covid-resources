@@ -26,6 +26,7 @@ const PlasmaDonors = (props) => {
             <h1 style={styles.head}>Plasma Donors</h1>
             {data.filter(element => element.nameOfResource == "plasmaDonors").map((element, index) => <div style={styles.items}>
                 <OutlinedCard City={element.City}
+                key={index}
                     nameOfResource={element.nameOfResource}
                     Address={element.Address}
                     Contact={element.Contact}

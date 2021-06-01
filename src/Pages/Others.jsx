@@ -26,6 +26,7 @@ const Others = (props) => {
             <h1 style={styles.head}>Resources Agencies</h1>
             {data.filter(element => element.nameOfResource == "resourceAgencies" || element.nameOfResource == "womenInCardiology" || element.nameOfResource == "humanSupporters" ).map((element, index) => <div style={styles.items}>
                 <OutlinedCard City={element.City}
+                key={index}
                     nameOfResource={element.nameOfResource}
                     Address={element.Address}
                     Contact={element.Contact}
