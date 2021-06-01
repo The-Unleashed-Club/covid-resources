@@ -24,7 +24,7 @@ const FoodDistribution = (props) => {
     return (
         <>
             <h1 style={styles.head}>Food Distribution</h1>
-            {data.filter(element => element.nameOfResource == "foodDistribution").map((element, index) => <div style={styles.items}>
+            {data.filter(element => element.nameOfResource === "foodDistribution").map((element, index) => <div style={styles.items}>
                 <OutlinedCard City={element.City}
                 key={index}
                     nameOfResource={element.nameOfResource}
@@ -43,6 +43,7 @@ const FoodDistribution = (props) => {
 const styles = {
     head: {
         marginLeft: '1%',
+        fontFamily: 'Poppins',
     },
     items: {
         display: 'flex',
