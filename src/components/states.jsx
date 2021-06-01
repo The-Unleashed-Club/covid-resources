@@ -1,8 +1,7 @@
 import React from 'react';
 import ImgMediaCard from './ImgMediaCard';
 import StateCardData from './StateCardData';
-//import AndraPradeshData from '../StatesLeads/AndraPradesh'
-//import AndhraPradesh from '../images/AndraPradesh.jpg'
+
 
 function CardData(val,index) {
 	//console.log(val.stateLeadsData)

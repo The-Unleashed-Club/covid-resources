@@ -1,8 +1,4 @@
 //import React from 'react';
-
-
-
-
 import Frame1 from '../images/Frame1.png';
 import Frame2 from '../images/Frame2.png';
 import Frame3 from '../images/Frame3.png';
@@ -21,7 +17,6 @@ import Frame17 from '../images/Frame17.png';
 import Frame18 from '../images/Frame18.png';
 import Frame19 from '../images/Frame19.png';
 import Frame20 from '../images/Frame20.png';
-
 import Frame22 from '../images/Frame22.png';
 import Frame23 from '../images/Frame23.png';
 import Frame24 from '../images/Frame24.png';

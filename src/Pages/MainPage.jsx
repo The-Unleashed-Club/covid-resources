@@ -1,20 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import firebase from 'firebase';
+import React, { useState} from 'react';
 
 import ForwardIcon from '@material-ui/icons/Forward';
 import Ambulance from './Ambulance';
 import Beds from './Beds';
 import Medicine from './Medicine';
-import OxygenCans from './OxygenCans';
 import Oxygen from './Oxygen';
 import OxygenCylinders from './OxygenCylinders';
 import OxygenRefiling from './OxygenRefiling'
-//import appContext from '../context/AppContext';
-//import StateLeads from '../components/StateLeads'
 
-
-//db
-const db = firebase.database();
 
 //map function for indivisual leads passing data 
 
