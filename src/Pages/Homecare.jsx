@@ -24,7 +24,7 @@ const HomeCare = (props) => {
     return (
         <>
             <h1 style={styles.head}>Home Care</h1>
-            {data.filter(element => element.nameOfResource == "homeCare").map((element, index) => <div style={styles.items}>
+            {data.filter(element => element.nameOfResource === "homeCare").map((element, index) => <div style={styles.items}>
                 <OutlinedCard City={element.City}
                     nameOfResource={element.nameOfResource}
                     Address={element.Address}
@@ -42,6 +42,7 @@ const HomeCare = (props) => {
 const styles = {
     head: {
         marginLeft: '1%',
+        fontFamily: 'Poppins',
     },
     items: {
         display: 'flex',

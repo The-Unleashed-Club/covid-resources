@@ -23,8 +23,8 @@ const Others = (props) => {
 
     return (
         <>
-            <h1 style={styles.head}>Resources Agencies</h1>
-            {data.filter(element => element.nameOfResource == "resourceAgencies" || element.nameOfResource == "womenInCardiology" || element.nameOfResource == "humanSupporters" ).map((element, index) => <div style={styles.items}>
+            <h1 style={styles.head}>Other Resources</h1>
+            {data.filter(element => element.nameOfResource === "resourceAgencies" || element.nameOfResource === "womenInCardiology" || element.nameOfResource === "humanSupporters").map((element, index) => <div style={styles.items}>
                 <OutlinedCard City={element.City}
                     nameOfResource={element.nameOfResource}
                     Address={element.Address}
@@ -42,6 +42,7 @@ const Others = (props) => {
 const styles = {
     head: {
         marginLeft: '1%',
+        fontFamily: 'Poppins',
     },
     items: {
         display: 'flex',
