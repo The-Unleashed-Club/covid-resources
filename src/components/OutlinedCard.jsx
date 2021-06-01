@@ -10,7 +10,7 @@ const useStyles = makeStyles({
   root: {
     minWidth: 345,
     width: 'max-content',
-    margin: '2%',
+   // margin: '2%',
     boxShadow: '3px 3px 5px 6px #ccc',
     maxWidth: 345,
 
@@ -22,6 +22,7 @@ const useStyles = makeStyles({
   },
   title: {
     fontSize: 14,
+    fontFamily: 'Poppins',
   },
   pos: {
     marginBottom: 12,

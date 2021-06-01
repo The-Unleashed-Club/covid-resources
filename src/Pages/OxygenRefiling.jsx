@@ -22,12 +22,13 @@ const OxygenRefiling = (props) => {
   }, [])
 
 
-  return (
-    <>
-      <h1 style={styles.head}>Oxygen Refiling facility</h1>
-      {data.filter(element => element.nameOfResource == "oxygenRefill").map((element, index) => <div style={styles.items}>
-        <OutlinedCard City={element.City}
-          nameOfResource={element.nameOfResource}
+return (
+  <>
+<h1>Oxygen Refiling facility</h1>
+{data.filter(element => element.nameOfResource == "oxygenRefill" ).map( (element,index) => <div style={styles.items}>
+<OutlinedCard City={element.City}
+key={index}
+nameOfResource={element.nameOfResource}
           Address={element.Address}
           Contact={element.Contact}
           Price={element.Price}
@@ -45,13 +46,14 @@ const styles = {
     marginLeft: '1%',
   },
   items: {
-    display: 'flex',
-    flexDirection: 'column',
-    flexWrap: 'wrap',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#f0ffff',
-    paddingBottom: '3%',
+      display: 'flex',
+      flexDirection: 'column',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#f0ffff',
+      paddingBottom:'3%',
+      fontFamily: 'Poppins',
   }
 
 };
