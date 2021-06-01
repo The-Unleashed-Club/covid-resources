@@ -1,20 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import firebase from 'firebase';
+import React, { useState} from 'react';
 
 import ForwardIcon from '@material-ui/icons/Forward';
 import Ambulance from './Ambulance';
 import Beds from './Beds';
 import Medicine from './Medicine';
-import OxygenCans from './OxygenCans';
 import Oxygen from './Oxygen';
 import OxygenCylinders from './OxygenCylinders';
 import OxygenRefiling from './OxygenRefiling'
-//import appContext from '../context/AppContext';
-//import StateLeads from '../components/StateLeads'
-
-
-//db
-const db = firebase.database();
+import BloodBanks from './BloodBanks';
+import TestingCenters from './TestingCenters';
+import FoodDistribution from './FoodDistribution';
+import HomeCare from './Homecare';
+import PlasmaDonors from './PlasmaDonors';
+import Others from './Others';
 
 //map function for indivisual leads passing data 
 
@@ -61,6 +59,27 @@ const Main = (props) => {
           <input className={buttonId === 7 ? "button7" :
             "button1"} onClick={() => handleClick(7)} value="Oxygen Refiling"
             type="button" style={styles.btn} />
+            <input className={buttonId === 8 ? "button8" :
+          "button1"} onClick={() => handleClick(8)} value="Testing Centers"
+          type="button" style={styles.btn} />
+
+        <input className={buttonId === 9 ? "button8" :
+          "button1"} onClick={() => handleClick(9)} value="Plasm Donors"
+          type="button" style={styles.btn} />
+        <input className={buttonId === 10 ? "button8" :
+          "button1"} onClick={() => handleClick(10)} value="Blood
+            Banks "
+          type="button" style={styles.btn} />
+        <input className={buttonId === 11 ? "button8" :
+          "button1"} onClick={() => handleClick(11)} value="Home Care"
+          type="button" style={styles.btn} />
+        <input className={buttonId === 12 ? "button8" :
+          "button1"} onClick={() => handleClick(12)} value="Food Distribution"
+          type="button" style={styles.btn} />
+  <input className={buttonId === 13 ? "button8" :
+          "button1"} onClick={() => handleClick(13)} value="Others"
+          type="button" style={styles.btn} />
+
 
         </div>
         {/*map the data with uppar define function, value which is coming from imgMediaCard button  */}
@@ -71,6 +90,12 @@ const Main = (props) => {
         {buttonId === 5 && <Oxygen stateName={Value}/>}
         {buttonId === 6 && <OxygenCylinders stateName={Value}/>}
         {buttonId === 7 && <OxygenRefiling stateName={Value}/>}
+        {buttonId === 8 && <TestingCenters stateName={Value} />}
+      {buttonId === 9 && <PlasmaDonors stateName={Value} />}
+      {buttonId === 10 && <BloodBanks stateName={Value} />}
+      {buttonId === 11 && <HomeCare stateName={Value} />}
+      {buttonId === 12 && <FoodDistribution stateName={Value} />}
+      {buttonId === 13 && <Others stateName={Value} />}
 
 {console.log(Value)}
       </div>
@@ -83,12 +108,13 @@ const Main = (props) => {
 const styles = {
 
   main: {
-    //margin:'1%',
+   // margin:'1%',
     backgroundColor: '#F0FFFF',
   },
 
 
   head: {
+   marginLeft:'1%',
     fontSize: '30px',
     fontFamily: 'Poppins',
   },

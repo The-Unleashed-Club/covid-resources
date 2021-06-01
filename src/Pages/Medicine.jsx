@@ -1,6 +1,6 @@
 import React from 'react';
 import firebase from 'firebase';
-import {useEffect , useState} from 'react';
+import { useEffect, useState } from 'react';
 import OutlinedCard from '../components/OutlinedCard'
 
 
@@ -34,13 +34,16 @@ nameOfResource={element.nameOfResource}
           Comments={element.Comments}
           verficationDataTime={element.verficationDataTime}
           vendorName={element.vendorName}
-      />
-</div>)}
-</>
-)
+        />
+      </div>)}
+    </>
+  )
 }
 
 const styles = {
+  head: {
+    marginLeft: '1%',
+  },
   items: {
       display: 'flex',
       flexDirection: 'column',
@@ -54,4 +57,4 @@ const styles = {
 
 };
 
-export default Medicine
+export default Medicines
