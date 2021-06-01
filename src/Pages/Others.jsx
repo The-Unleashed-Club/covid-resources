@@ -5,7 +5,7 @@ import OutlinedCard from '../components/OutlinedCard'
 
 
 const db = firebase.database();
-const ResourceAgencies = (props) => {
+const Others = (props) => {
     const [data, setdata] = useState([]);
 
     //filter(element => element.city === "Patna" )
@@ -24,7 +24,7 @@ const ResourceAgencies = (props) => {
     return (
         <>
             <h1 style={styles.head}>Resources Agencies</h1>
-            {data.filter(element => element.nameOfResource == "resourceAgencies").map((element, index) => <div style={styles.items}>
+            {data.filter(element => element.nameOfResource == "resourceAgencies" || element.nameOfResource == "womenInCardiology" || element.nameOfResource == "humanSupporters" ).map((element, index) => <div style={styles.items}>
                 <OutlinedCard City={element.City}
                     nameOfResource={element.nameOfResource}
                     Address={element.Address}
@@ -55,4 +55,4 @@ const styles = {
 
 };
 
-export default ResourceAgencies
+export default Others

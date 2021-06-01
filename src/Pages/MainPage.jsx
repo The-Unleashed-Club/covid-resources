@@ -11,10 +11,8 @@ import BloodBanks from './BloodBanks';
 import TestingCenters from './TestingCenters';
 import FoodDistribution from './FoodDistribution';
 import HomeCare from './Homecare';
-import HumanSupporters from './HumanSupporters';
 import PlasmaDonors from './PlasmaDonors';
-import ResourceAgencies from './ResourceAgencies';
-import WomenInCardiology from './WomenInCardiology';
+import Others from './Others';
 
 //map function for indivisual leads passing data 
 
@@ -78,16 +76,10 @@ const Main = (props) => {
         <input className={buttonId === 12 ? "button8" :
           "button1"} onClick={() => handleClick(12)} value="Food Distribution"
           type="button" style={styles.btn} />
-        <input className={buttonId === 13 ? "button8" :
-          "button1"} onClick={() => handleClick(13)} value="Resource Agencies(Mental Health, Old Age)"
+  <input className={buttonId === 13 ? "button8" :
+          "button1"} onClick={() => handleClick(13)} value="Others"
           type="button" style={styles.btn} />
-        <input className={buttonId === 14 ? "button8" :
-          "button1"} onClick={() => handleClick(14)} value="Human Supporters"
-          type="button" style={styles.btn} />
-        <input className={buttonId === 15 ? "button8" :
-          "button1"} onClick={() => handleClick(15)} value="Women In Cardiology And Related Sciences"
-          type="button" style={styles.btn} />
-            
+
 
         </div>
         {/*map the data with uppar define function, value which is coming from imgMediaCard button  */}
@@ -103,9 +95,7 @@ const Main = (props) => {
       {buttonId === 10 && <BloodBanks stateName={Value} />}
       {buttonId === 11 && <HomeCare stateName={Value} />}
       {buttonId === 12 && <FoodDistribution stateName={Value} />}
-      {buttonId === 13 && <ResourceAgencies stateName={Value} />}
-      {buttonId === 14 && <HumanSupporters stateName={Value} />}
-      {buttonId === 15 && <WomenInCardiology stateName={Value} />}
+      {buttonId === 13 && <Others stateName={Value} />}
 
 {console.log(Value)}
       </div>
