@@ -6,7 +6,7 @@ import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 const Header = () => {
     return (
         <div style={styles.box}>
-        <LocalHospitalIcon fontSize="large" style={{ color: '#808080' }}/>
+        <LocalHospitalIcon fontSize="large" style={{ color: '#f0ffff' }}/>
             <h1 style={styles.head}>Recover India </h1>
 
         </div>
@@ -24,7 +24,8 @@ const styles ={
     },
     head:{
         color:'#f0ffff',
-        fontFamily: 'Poppins'
+        fontFamily: 'Poppins',
+        fontSize: '27px',
     }
 
 };

@@ -37,6 +37,7 @@ const styles ={
     justifyContent: 'center',
 	backgroundColor: '#F0FFFF',
 	paddingBottom: '3%',
+	fontFamily: 'Poppins',
   }
 
 };

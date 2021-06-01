@@ -68,5 +68,7 @@ const styles = {
     borderRadius: '5px',
     textDecoration: 'none',
     color: '#ffffff',
+    fontFamily: 'Poppins',
+    
   },
 };

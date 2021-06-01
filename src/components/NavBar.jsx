@@ -35,6 +35,7 @@ const styles = {
     //borderWidth: '1px',
     borderRadius: '5px',
     textDecoration: 'none',
+    fontFamily: 'Poppins',
 
   },
 };

@@ -25,7 +25,9 @@ return (
   <>
 <h1>Ambulance facility</h1>
 {data.filter(element => element.resourcesName == "Ambulance" ).map( (element,index) => <div style={styles.items}>
-<OutlinedCard City={element.City}
+<OutlinedCard 
+key={index}
+City={element.City}
 nameOfResource={element.nameOfResource}
           Address={element.Address}
           Contact={element.Contact}
@@ -48,6 +50,7 @@ const styles = {
       justifyContent: 'center',
       backgroundColor: '#f0ffff',
       paddingBottom:'3%',
+      fontFamily: 'Poppins',
   }
 
 };

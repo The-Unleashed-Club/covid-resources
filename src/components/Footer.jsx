@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div style={styles.box}>
-            <h1 style={styles.head}>@copyRight</h1>,
+            <h1 style={styles.head}>@CopyRight</h1>,
         </div>
     )
 };
@@ -23,7 +23,8 @@ const styles ={
     
     },
     head:{
-        color:'#808080',   
+        color:'#808080',
+        fontFamily: 'Poppins', 
     }
 
 };

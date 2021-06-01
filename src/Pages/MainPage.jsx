@@ -90,6 +90,7 @@ const styles = {
 
   head: {
     fontSize: '30px',
+    fontFamily: 'Poppins',
   },
 
   
@@ -110,6 +111,7 @@ const styles = {
     borderWidth: '0.5px',
     borderRadius: '5px',
     borderColor:'#FFFFFF',
+    fontFamily: 'Poppins',
 
   },
 
