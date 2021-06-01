@@ -19,6 +19,7 @@ const TestingCenters = (props) => {
       setdata(data == null ? [] : data)
       console.log(data);
     })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (

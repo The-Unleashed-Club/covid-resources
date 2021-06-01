@@ -21,7 +21,7 @@ const Main = (props) => {
 
   //define the Value with the data which is coming from button click
   //const Value = props.location.MainProps.titleName;
-  const Value = props.location.MainProps == undefined ? "" : props.location.MainProps.titleName
+  const Value = props.location.MainProps === undefined ? "" : props.location.MainProps.titleName
 
 
   const [buttonId, setButton] = useState(0)
