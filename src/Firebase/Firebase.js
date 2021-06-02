@@ -1,10 +1,11 @@
 import firebase from "firebase/app";
 
 import "firebase/firestore";
-//console.log = console.warn = console.error = () => {};
+
+console.log = console.warn = console.error = () => {};
 
 // Look ma, no error!
-//console.error('Something bad happened.');
+console.error('Something bad happened.');
 
 const firebaseConfig = {
     apiKey: "AIzaSyA1edmoDPFXQHGAUOCzX0CfSsJSnIZ7lLc",

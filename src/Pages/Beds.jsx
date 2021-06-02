@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
 import firebase from 'firebase';
 import { useEffect, useState } from 'react';
@@ -26,6 +27,7 @@ const Beds = (props) => {
             <h1 style={styles.head}>Beds</h1>
             {data.filter(element => element.nameOfResource === "Beds").map((element, index) => <div style={styles.items}>
                 <OutlinedCard City={element.City}
+                key={index}
                     nameOfResource={element.nameOfResource}
                     Address={element.Address}
                     Contact={element.Contact}
