@@ -3,7 +3,7 @@ import React from 'react';
 
 import Firebase from './Firebase/Firebase'
 
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import States from './components/states';
 
 import Nav from './components/NavBar';
@@ -42,7 +42,7 @@ const App = () => {
         </div>
       </ BrowserRouter >
 
-      <Footer />
+      {/* <Footer /> */}
 
 
 
