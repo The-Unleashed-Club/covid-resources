@@ -63,6 +63,13 @@ import WestBengalData from '../StatesLeads/WestBengal';
 
 const StateCardData = [
     {
+        id: "8",
+        img: Frame25 ,
+        stateName: 'Delhi',
+        stateLeadsData: DelhiData ,
+        Title:"Delhi",
+    },
+    {
         id: "1",
         img: Frame1,
         stateName: 'AndhraPradesh',
@@ -113,13 +120,7 @@ const StateCardData = [
         stateLeadsData: DamanAndDiuData,
         Title:"Daman And Diu",
     },
-    {
-        id: "8",
-        img: Frame25 ,
-        stateName: 'Delhi',
-        stateLeadsData: DelhiData ,
-        Title:"Delhi",
-    },
+   
     {
         id: "9",
         img: Frame9,
