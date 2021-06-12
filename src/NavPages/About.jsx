@@ -26,6 +26,8 @@ const styles ={
   
   },
   head:{
+    paddingLeft: '2%',
+    paddingTop: '1%',
       color:'#808080',
       fontFamily: 'Poppins', 
   }
