@@ -7,6 +7,7 @@ const Nav = () => {
     <>
     <Header/>
       <div style={styles.Nav}>
+      <Link style={styles.btn} to="/home">Home</Link>
         <Link style={styles.btn} to="/About">About Us</Link>
         <Link style={styles.btn} to="/Blog">Blog</Link>
         <Link to={{ pathname: "https://forms.gle/Qg5jbCjdapEsWGo19" }} 
