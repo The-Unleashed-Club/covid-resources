@@ -9,7 +9,7 @@ const Nav = () => {
       <div style={styles.Nav}>
       <Link style={styles.btn} to="/home">Home</Link>
         <Link style={styles.btn} to="/About">About Us</Link>
-        <Link style={styles.btn} to="/Blog">Blog</Link>
+        {/* <Link style={styles.btn} to="/Blog">Blog</Link> */}
         <Link to={{ pathname: "https://forms.gle/Qg5jbCjdapEsWGo19" }} 
 target="_blank" style={styles.btn} >Volunteer</Link>
 
@@ -31,7 +31,7 @@ const styles = {
     color: '#000000',
     padding: '7px',
     margin: '1%',
-    fontSize: '20px',
+    fontSize: '15px',
     //borderStyle: 'solid',
     //borderWidth: '1px',
     borderRadius: '5px',
