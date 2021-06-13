@@ -3,7 +3,7 @@ import React from 'react';
 
 import Firebase from './Firebase/Firebase'
 
-// import Footer from './components/Footer';
+ import Footer from './components/Footer';
 import States from './components/states';
 
 import Nav from './components/NavBar';
@@ -33,6 +33,7 @@ const App = () => {
               <Route exact path="/" component={States} />
               <Route path="/Main" component={Main} />
 
+              <Route path="/home" component={States} />
               <Route path="/About" component={About} />
               <Route path="/Blog" component={Blog} />
             
@@ -42,7 +43,7 @@ const App = () => {
         </div>
       </ BrowserRouter >
 
-      {/* <Footer /> */}
+       <Footer />
 
 
 
