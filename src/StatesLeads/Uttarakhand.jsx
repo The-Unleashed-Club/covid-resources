@@ -130,17 +130,7 @@ const UttarakhandData =[
         verficationDataTime: "",
         vendorName: "Rama surgical house",
     },
-    {
-    
-        City: "",
-        nameOfResource: "oxygenRefill",
-        Address: "Dehradun",
-        Contact: "9897530007",
-        Price: " ",
-        Comments: "",
-        verficationDataTime: "",
-        vendorName: "Balaji Gases",
-    },
+   
     {
     
         City: "",
@@ -163,6 +153,18 @@ const UttarakhandData =[
         verficationDataTime: "",
         vendorName: "Gupta Gases",
     },
+   
+    {
+    
+        City: "",
+        nameOfResource: "Oxygen",
+        Address: "",
+        Contact: "Call -  6395666838, Whatsapp - 6397463144",
+        Price: " ",
+        Comments: "Oxygen concentrators, Please do not pay any money for prebooking of cylinders",
+        verficationDataTime: "",
+        vendorName: "",
+    },
     {
     
         City: "",
@@ -177,37 +179,13 @@ const UttarakhandData =[
     {
     
         City: "",
-        nameOfResource: "Oxygen",
-        Address: "",
-        Contact: "Call -  6395666838, Whatsapp - 6397463144",
-        Price: " ",
-        Comments: "Oxygen concentrators, Please do not pay any money for prebooking of cylinders",
-        verficationDataTime: "",
-        vendorName: "",
-    },
-
-    {
-    
-        City: "",
         nameOfResource: "oxygenRefill",
-        Address: "",
-        Contact: "",
+        Address: "Dehradun",
+        Contact: "9897530007",
         Price: " ",
         Comments: "",
         verficationDataTime: "",
-        vendorName: "",
-    },
-
-    {
-    
-        City: "",
-        nameOfResource: "oxygenRefill",
-        Address: "",
-        Contact: "",
-        Price: " ",
-        Comments: "",
-        verficationDataTime: "",
-        vendorName: "",
+        vendorName: "Balaji Gases",
     },
 
     {
