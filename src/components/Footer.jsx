@@ -7,7 +7,7 @@ const Footer = () => {
         <>
             <div style={styles.box}>
             
-            <p style={styles.text}>@DISCLAIMER : We realise that, due to the unprecedented circumstances and shortage of the resources, the leads may turn obsolete, even in a fraction of seconds, and without a doubt, this project is highly crowdsourced and collaborative in nature.
+            <p style={styles.text}>@DISCLAIMER : This project is highly crowdsourced and collaborative in nature. 
 Therefore, we can not and do not guarantee the veracity of the information provided here, and hence due diligence by the user is strongly advised.</p>
 </div>
         </>
