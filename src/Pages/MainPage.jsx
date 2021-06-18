@@ -64,7 +64,7 @@ const Main = (props) => {
           type="button" style={styles.btn} />
 
         <input className={buttonId === 9 ? "button8" :
-          "button1"} onClick={() => handleClick(9)} value="Plasm Donors"
+          "button1"} onClick={() => handleClick(9)} value="Plasma Donors"
           type="button" style={styles.btn} />
         <input className={buttonId === 10 ? "button8" :
           "button1"} onClick={() => handleClick(10)} value="Blood
