@@ -36,7 +36,6 @@ const JammuAndKashmirData =[
     
         City: "",
         nameOfResource: "foodDistribution",
-        nameOfResource: "",
         Address: "Srinagar",
         Contact: "9086518240",
         Price: " ",
