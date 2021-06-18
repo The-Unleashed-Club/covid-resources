@@ -1,12 +1,20 @@
 //import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from './Header';
-
+// import { Provider as AlertProvider } from 'react-alert';
+//import AlertTemplate from 'react-alert-template-basic';
+// import Alert from './Alert';
 const Nav = () => {
   return (
     <>
     <Header/>
+    
       <div style={styles.Nav}>
+        {/* <div style={styles.Alert}>
+      <AlertProvider template={AlertTemplate}>
+    <Alert />
+  </AlertProvider> */}
+  
       <Link style={styles.btn} to="/home">Home</Link>
         <Link style={styles.btn} to="/About">About Us</Link>
         {/* <Link style={styles.btn} to="/Blog">Blog</Link> */}
@@ -25,6 +33,9 @@ const styles = {
     justifyContent: 'center',
     backgroundColor: '#34c759',
 
+  },
+  Alert:{
+    alignItems: 'center',
   },
   btn: {
     backgroundColor: '#F0FFFF',

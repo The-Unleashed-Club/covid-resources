@@ -272,7 +272,16 @@ const DelhiData = [
         vendorName: "Gurudwara Dukh Bhanjan Bunga Sahib",
     },
 
-
+    {
+        City: "Delhi",
+        nameOfResource: "oxygenRefill",
+        Address: "Delhi NCR ghaziabad",
+        Contact: "8445111146",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
 
  
     {
@@ -345,8 +354,26 @@ const DelhiData = [
         verficationDataTime: "",
         vendorName: "oxygen refilling",
     },
-
-
+    {
+        City: "Delhi",
+        nameOfResource: "oxygenCylinder",
+        Address: "Delhi NCR- Gurgaon",
+        Contact: "98913 32403",
+        Price: "",
+        Comments: " ",
+        verficationDataTime: "",
+        vendorName: "mohta brothers",
+    },
+    {
+        City: "Delhi",
+        nameOfResource: "oxygenCylinder",
+        Address: "",
+        Contact: "8882036300",
+        Price: "",
+        Comments: " ",
+        verficationDataTime: "",
+        vendorName: "",
+    },
 
 
     {
@@ -458,6 +485,128 @@ const DelhiData = [
         Comments: "DO NOT PAY IN ADVANCE.",
         verficationDataTime: " 17th May 4:40 a.m.",
         vendorName: "*OXYGEN CYLINDERS* - DELHI",
+    },
+    {
+        
+        City: "",
+        nameOfResource: "Ambulance",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "Beds",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "bloodBanks",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "foodDistribution",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "homeCare",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "Medicines",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "resourceAgencies",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "womenInCardiology",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "humanSupporters",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+      
+      {
+    
+        City: "",
+        nameOfResource: "plasmaDonors",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
+    },
+    {
+    
+        City: "",
+        nameOfResource: "testingCenters",
+        Address: "",
+        Contact: "",
+        Price: " ",
+        Comments: "",
+        verficationDataTime: "",
+        vendorName: "",
     },
 
 ];

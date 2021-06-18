@@ -72,7 +72,7 @@ const StateCardData = [
     {
         id: "1",
         img: Frame1,
-        stateName: 'AndhraPradesh',
+        stateName: 'AndraPradesh',
         stateLeadsData: AndraPradeshData,
         Title:"Andhra Pradesh",
 
